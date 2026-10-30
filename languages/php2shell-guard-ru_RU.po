@@ -1,0 +1,1605 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR PHP2Shell Guard
+# This file is distributed under the same license as the PHP2Shell Guard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PHP2Shell Guard 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-30 07:31+0000\n"
+"PO-Revision-Date: 2026-10-30 20:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.9; wp-7.1.4; php-8.3.36"
+
+#: php2shell-guard.php:65
+#, fuzzy
+msgid "Every 15 minutes"
+msgstr "Каждые 15 минут"
+
+#: includes/class-p2s-admin.php:30 includes/class-p2s-admin.php:31
+#: includes/class-p2s-admin.php:259
+#, fuzzy
+msgid "PHP2Shell Guard"
+msgstr "PHP2Shell Guard"
+
+#: includes/class-p2s-admin.php:69
+#, fuzzy
+msgid "Scan complete. Reloading..."
+msgstr "Сканирование завершено. Перезагрузка..."
+
+#: includes/class-p2s-admin.php:70
+#, fuzzy
+msgid "Request failed"
+msgstr "Запрос не удался"
+
+#: includes/class-p2s-admin.php:77
+#, fuzzy
+msgid "Open"
+msgstr "Открыть"
+
+#: includes/class-p2s-admin.php:86 includes/class-p2s-admin.php:88
+#, fuzzy
+msgid "Get help"
+msgstr "Получить помощь"
+
+#: includes/class-p2s-admin.php:107
+#, fuzzy
+msgid "PHP2Shell Guard:"
+msgstr "PHP2Shell Guard:"
+
+#. translators: %d: number of critical items
+#: includes/class-p2s-admin.php:111
+#, fuzzy, php-format
+msgid "%d critical item needs your attention."
+msgid_plural "%d critical items need your attention."
+msgstr[0] "%d Критический элемент требует вашего внимания."
+msgstr[1] "%d Критические элементы требуют вашего внимания."
+msgstr[2] ""
+
+#: includes/class-p2s-admin.php:116
+#, fuzzy
+msgid "Review now"
+msgstr "Обзор сейчас"
+
+#: includes/class-p2s-admin.php:151
+#, fuzzy
+msgid "You do not have permission to do that."
+msgstr "У вас нет на это разрешения."
+
+#: includes/class-p2s-admin.php:207
+#, fuzzy
+msgid "Test alert"
+msgstr "Тестовое оповещение"
+
+#: includes/class-p2s-admin.php:208
+#, fuzzy
+msgid ""
+"This is a test from PHP2Shell Guard. If you can read this, alerts reach you."
+msgstr ""
+"Это тест от PHP2Shell Guard. Если вы можете прочитать это, оповещения "
+"доходят до вас."
+
+#: includes/class-p2s-admin.php:226
+#, fuzzy
+msgid "Critical"
+msgstr "Критический"
+
+#: includes/class-p2s-admin.php:227
+#, fuzzy
+msgid "Review"
+msgstr "Обзор"
+
+#: includes/class-p2s-admin.php:228
+#, fuzzy
+msgid "OK"
+msgstr "Хорошо"
+
+#: includes/class-p2s-admin.php:229
+#, fuzzy
+msgid "Info"
+msgstr "Информация"
+
+#: includes/class-p2s-admin.php:251
+#, fuzzy
+msgid "Status"
+msgstr "Статус"
+
+#: includes/class-p2s-admin.php:252 includes/class-p2s-admin.php:402
+#, fuzzy
+msgid "Live events"
+msgstr "Живые события"
+
+#: includes/class-p2s-admin.php:253
+#, fuzzy
+msgid "Alerts & settings"
+msgstr "Оповещения и настройки"
+
+#: includes/class-p2s-admin.php:286
+#, fuzzy
+msgid "Acknowledged."
+msgstr "признано."
+
+#: includes/class-p2s-admin.php:287
+#, fuzzy
+msgid "Current state accepted as the new baseline."
+msgstr "Текущее состояние принято в качестве новой базовой линии."
+
+#: includes/class-p2s-admin.php:288
+#, fuzzy
+msgid "Acknowledgements cleared."
+msgstr "Благодарности очищены."
+
+#: includes/class-p2s-admin.php:289
+#, fuzzy
+msgid ""
+"Test alert sent through every configured channel. Check that it arrived."
+msgstr ""
+"Тестовое оповещение, отправляемое по каждому настроенному каналу. Проверьте, "
+"что он прибыл."
+
+#: includes/class-p2s-admin.php:290
+#, fuzzy
+msgid "At least one channel failed. See the alert log below."
+msgstr ""
+"По крайней мере один канал вышел из строя. Смотрите журнал предупреждений "
+"ниже."
+
+#: includes/class-p2s-admin.php:296
+#, fuzzy
+msgid "Settings saved."
+msgstr "Настройки сохранены."
+
+#. translators: %s: time span, e.g. "3 hours"
+#: includes/class-p2s-admin.php:307 includes/class-p2s-admin.php:352
+#, fuzzy, php-format
+msgid "%s ago"
+msgstr "%s назад"
+
+#: includes/class-p2s-admin.php:307 includes/class-p2s-alerts.php:289
+#, fuzzy
+msgid "never"
+msgstr "никогда"
+
+#: includes/class-p2s-admin.php:311
+#, fuzzy
+msgid "critical"
+msgstr "критический"
+
+#: includes/class-p2s-admin.php:312
+#, fuzzy
+msgid "to review"
+msgstr "пересмотреть"
+
+#: includes/class-p2s-admin.php:313
+#, fuzzy
+msgid "last full scan"
+msgstr "Последнее полное сканирование"
+
+#: includes/class-p2s-admin.php:314
+#, fuzzy
+msgid "until next scan"
+msgstr "до следующего сканирования"
+
+#: includes/class-p2s-admin.php:318
+#, fuzzy
+msgid "Run full scan"
+msgstr "Запуск полного сканирования"
+
+#: includes/class-p2s-admin.php:319
+#, fuzzy
+msgid "Accept current state"
+msgstr "Принять текущее состояние"
+
+#: includes/class-p2s-admin.php:321
+#, fuzzy
+msgid "Clear acknowledgements"
+msgstr "четкие благодарности"
+
+#. translators: %s: time since baseline
+#: includes/class-p2s-admin.php:330
+#, fuzzy, php-format
+msgid ""
+"Real-time watch is active. Baseline set %s ago: changes to wp-config.php, ."
+"htaccess, .user.ini, must-use plugins and the list of administrators raise "
+"an alert. Use \"Accept current state\" after legitimate changes."
+msgstr ""
+"Часы в реальном времени активны. Базовый набор %s назад: изменения в wp-"
+"config.php, .htaccess, .user.ini, обязательные плагины и список "
+"администраторов вызывают предупреждение. Используйте «Принять текущее "
+"состояние» после законных изменений."
+
+#: includes/class-p2s-admin.php:334
+#, fuzzy
+msgid ""
+"No baseline yet. It is taken automatically after the first scan that finds "
+"nothing critical. Until then only uploads and live events are watched. Fix "
+"any critical findings first, then run a scan or click \"Accept current "
+"state\"."
+msgstr ""
+"Базового пока нет. Он выполняется автоматически после первого сканирования, "
+"который не находит ничего критичного. До этого смотрятся только загрузки и "
+"живые события. Сначала исправьте все критические выводы, затем запустите "
+"сканирование или нажмите «Принять текущее состояние»."
+
+#: includes/class-p2s-admin.php:343
+#, fuzzy
+msgid "No scan has run yet. Click \"Run full scan\"."
+msgstr ""
+"Сканирование пока не запущено. Нажмите «Выполнить полное сканирование»."
+
+#: includes/class-p2s-admin.php:361
+#, fuzzy, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d элемент"
+msgstr[1] "%d элементов"
+msgstr[2] ""
+
+#: includes/class-p2s-admin.php:363
+#, fuzzy, php-format
+msgid "%d more not shown"
+msgstr "%d Больше не показано"
+
+#: includes/class-p2s-admin.php:369
+#, fuzzy
+msgid "Acknowledged"
+msgstr "Признанный"
+
+#: includes/class-p2s-admin.php:371 includes/class-p2s-admin.php:414
+#, fuzzy
+msgid "Acknowledge"
+msgstr "Признавать"
+
+#: includes/class-p2s-admin.php:387
+#, fuzzy
+msgid "Need help cleaning up?"
+msgstr "Нужна помощь в уборке?"
+
+#: includes/class-p2s-admin.php:403
+#, fuzzy
+msgid ""
+"Things the guard saw as they happened: new administrators, changed site URL "
+"or admin email, PHP uploads, edits to critical files."
+msgstr ""
+"Вещи, которые охранник увидел, как они произошли: новые администраторы, "
+"изменение URL-адреса сайта или электронной почты администратора, загрузка "
+"PHP, правка в критические файлы."
+
+#: includes/class-p2s-admin.php:405
+#, fuzzy
+msgid "Nothing recorded yet."
+msgstr "Пока ничего не записано."
+
+#: includes/class-p2s-admin.php:408
+#, fuzzy
+msgid "Acknowledge all"
+msgstr "признать все"
+
+#: includes/class-p2s-admin.php:410 includes/class-p2s-admin.php:427
+#, fuzzy
+msgid "Time (UTC)"
+msgstr "Время (UTC)"
+
+#: includes/class-p2s-admin.php:410
+#, fuzzy
+msgid "Level"
+msgstr "Уровень"
+
+#: includes/class-p2s-admin.php:410
+#, fuzzy
+msgid "Event"
+msgstr "Событие"
+
+#: includes/class-p2s-admin.php:421
+#, fuzzy
+msgid "Alert delivery log"
+msgstr "Журнал доставки оповещений"
+
+#: includes/class-p2s-admin.php:424
+#, fuzzy
+msgid "No alerts have been sent yet."
+msgstr "Оповещения пока не отправлены."
+
+#: includes/class-p2s-admin.php:427
+#, fuzzy
+msgid "Subject"
+msgstr "Подвергать"
+
+#: includes/class-p2s-admin.php:427
+#, fuzzy
+msgid "Delivery"
+msgstr "Доставка"
+
+#: includes/class-p2s-admin.php:433
+#, fuzzy
+msgid "no channel configured"
+msgstr "Канал не настроен"
+
+#: includes/class-p2s-admin.php:445
+#, fuzzy
+msgid "Email alerts"
+msgstr "Оповещения по электронной почте"
+
+#: includes/class-p2s-admin.php:446
+#, fuzzy
+msgid "Send alerts by email"
+msgstr "Отправляйте оповещения по электронной почте"
+
+#: includes/class-p2s-admin.php:448
+#, fuzzy
+msgid ""
+"Comma or line separated. Empty means the site administrator email. Many "
+"hosts send WordPress mail unreliably, so also set up a webhook or Telegram."
+msgstr ""
+"запятая или линия разделены. Пусто означает электронную почту администратора "
+"сайта. Многие хосты ненадежно отправляют почту WordPress, поэтому также "
+"настраивают веб-хук или телеграмму."
+
+#: includes/class-p2s-admin.php:450
+#, fuzzy
+msgid "Webhook"
+msgstr "Вебхук"
+
+#: includes/class-p2s-admin.php:453
+#, fuzzy
+msgid "Generic JSON (structured)"
+msgstr "Общий JSON (структурированный)"
+
+#: includes/class-p2s-admin.php:458
+#, fuzzy
+msgid "Telegram"
+msgstr "Телеграмма"
+
+#: includes/class-p2s-admin.php:461
+msgid ""
+"Create a bot with @BotFather, send it a message, and use your chat ID. The "
+"token is stored in the database like any plugin setting."
+msgstr ""
+
+#: includes/class-p2s-admin.php:463
+#, fuzzy
+msgid "Also alert on \"review\" items"
+msgstr "Также предупреждение о пунктах «Обзор»"
+
+#: includes/class-p2s-admin.php:464
+#, fuzzy
+msgid ""
+"Notify about items that need a human look, not only critical ones (noisier)"
+msgstr ""
+"Уведомлять о предметах, которые нуждаются в человеческом облике, а не только "
+"в критических (шумных)"
+
+#: includes/class-p2s-admin.php:467
+#, fuzzy
+msgid "Scan frequency"
+msgstr "Частота сканирования"
+
+#: includes/class-p2s-admin.php:468
+#, fuzzy
+msgid "Hourly"
+msgstr "Часовой"
+
+#: includes/class-p2s-admin.php:468
+#, fuzzy
+msgid "Twice daily"
+msgstr "Дважды в день"
+
+#: includes/class-p2s-admin.php:468
+#, fuzzy
+msgid "Daily"
+msgstr "Ежедневный"
+
+#: includes/class-p2s-admin.php:471
+#, fuzzy
+msgid ""
+"The watcher for critical files and administrators runs every 15 minutes "
+"regardless. These timers rely on WP-Cron; on low-traffic sites trigger wp-"
+"cron.php from a real cron job."
+msgstr ""
+"Наблюдатель для критически важных файлов и администраторов работает каждые "
+"15 минут. Эти таймеры полагаются на wp-cron; На сайтах с низким трафиком "
+"триггер wp-cron.php из реальной работы cron."
+
+#: includes/class-p2s-admin.php:473
+#, fuzzy
+msgid "Inspect changes since"
+msgstr "Осмотрите изменения с тех пор"
+
+#: includes/class-p2s-admin.php:474
+#, fuzzy
+msgid "Start of the window to inspect (first known exploitation)."
+msgstr "Начало окна для проверки (первая известная эксплуатация)."
+
+#: includes/class-p2s-admin.php:477
+#, fuzzy
+msgid "Log files"
+msgstr "файлы журнала"
+
+#: includes/class-p2s-admin.php:479
+#, fuzzy
+msgid ""
+"Optional. One path or glob per line. Leave empty to look in the usual places."
+" PHP often cannot read server logs; ask your host if nothing is found."
+msgstr ""
+"необязательный. один путь или шар в каждой строке. Оставьте пустым, чтобы "
+"посмотреть в обычные места. PHP часто не может читать журналы сервера; "
+"Спросите своего хоста, если ничего не найдено."
+
+#: includes/class-p2s-admin.php:481
+#, fuzzy
+msgid "Daily heartbeat"
+msgstr "Ежедневное сердцебиение"
+
+#: includes/class-p2s-admin.php:482
+#, fuzzy
+msgid "Send a daily \"I am alive\" message"
+msgstr "Отправляйте ежедневное сообщение «Я жив»"
+
+#: includes/class-p2s-admin.php:483
+#, fuzzy
+msgid ""
+"If the message stops, the guard may have been switched off. This is how you "
+"notice a silent failure."
+msgstr ""
+"Если сообщение останавливается, защитник может быть выключен. Вот как вы "
+"замечаете молчаливую неудачу."
+
+#: includes/class-p2s-admin.php:489
+#, fuzzy
+msgid "Test"
+msgstr "Тест"
+
+#: includes/class-p2s-admin.php:490
+#, fuzzy
+msgid "Send a test alert"
+msgstr "Отправить тестовое оповещение"
+
+#: includes/class-p2s-admin.php:491
+#, fuzzy
+msgid "Save your settings first, then send a test."
+msgstr "Сначала сохраните настройки, затем отправьте тест."
+
+#: includes/class-p2s-admin.php:496
+#, fuzzy
+msgid ""
+"PHP2Shell Guard only reads and reports. It never modifies or deletes files. "
+"It cannot see inside your server beyond what PHP can read, and an attacker "
+"with full code execution could tamper with any plugin, so treat a clean "
+"result as \"no signs found\", not as proof."
+msgstr ""
+"PHP2Shell Guard только читает и сообщает. Он никогда не изменяет и не "
+"удаляет файлы. Он не может видеть внутри вашего сервера помимо того, что "
+"может читать PHP, и злоумышленник с полным выполнением кода может "
+"вмешиваться в любой плагин, поэтому рассматривайте чистый результат как «не "
+"найдено никаких признаков», а не как доказательство."
+
+#. translators: %s: site address
+#: includes/class-p2s-alerts.php:36
+#, fuzzy, php-format
+msgid "Site: %s"
+msgstr "Сайт: %s"
+
+#. translators: %s: date and time in UTC
+#: includes/class-p2s-alerts.php:38
+#, fuzzy, php-format
+msgid "Time: %s UTC"
+msgstr "Время: %s UTC"
+
+#. translators: %s: admin page URL
+#: includes/class-p2s-alerts.php:41
+#, fuzzy, php-format
+msgid "Review and acknowledge: %s"
+msgstr "Проверка и подтверждение: %s"
+
+#: includes/class-p2s-alerts.php:54
+#, fuzzy
+msgid "wp_mail() returned false"
+msgstr "wp_mail() вернул false"
+
+#: includes/class-p2s-alerts.php:56
+#, fuzzy
+msgid "no valid recipient"
+msgstr "Нет действующего получателя"
+
+#. translators: %s: contact person or company
+#: includes/class-p2s-alerts.php:122
+#, fuzzy, php-format
+msgid "Need help cleaning up? Contact %s"
+msgstr "Нужна помощь в уборке? Контакт %s"
+
+#: includes/class-p2s-alerts.php:167
+#, fuzzy
+msgid "Alert flood: further alerts suppressed for this hour"
+msgstr ""
+"Наводнение предупреждения: дальнейшие оповещения отключены в течение этого "
+"часа"
+
+#. translators: %d: maximum alerts per hour
+#: includes/class-p2s-alerts.php:169
+#, fuzzy, php-format
+msgid ""
+"More than %d alerts were raised within an hour. The rest are still recorded "
+"on the Live events tab."
+msgstr ""
+"Оповещения более %d были сняты в течение часа. Остальные по-прежнему "
+"записываются на вкладку «Живые события»."
+
+#: includes/class-p2s-alerts.php:257
+#, fuzzy
+msgid "CRITICAL"
+msgstr "Критический"
+
+#: includes/class-p2s-alerts.php:257
+#, fuzzy
+msgid "REVIEW"
+msgstr "Обзор"
+
+#: includes/class-p2s-alerts.php:265
+#, fuzzy
+msgid "... more on the admin page"
+msgstr "... подробнее на странице администратора"
+
+#. translators: 1: number of findings, 2: site host name
+#: includes/class-p2s-alerts.php:272
+#, fuzzy, php-format
+msgid "%1$d new critical finding on %2$s"
+msgid_plural "%1$d new critical findings on %2$s"
+msgstr[0] "%1$d Новый критический вывод на %2$s"
+msgstr[1] "%1$d Новые критические выводы по %2$s"
+msgstr[2] ""
+
+#. translators: 1: number of items, 2: site host name
+#: includes/class-p2s-alerts.php:274
+#, fuzzy, php-format
+msgid "%1$d new item to review on %2$s"
+msgid_plural "%1$d new items to review on %2$s"
+msgstr[0] "%1$d Новый пункт для просмотра на %2$s"
+msgstr[1] "%1$d Новые предметы для просмотра на %2$s"
+msgstr[2] ""
+
+#: includes/class-p2s-alerts.php:291
+#, fuzzy
+msgid "Heartbeat: PHP2Shell Guard is running"
+msgstr "Heartbeat: PHP2Shell Guard работает"
+
+#. translators: %s: date and time, or "never"
+#: includes/class-p2s-alerts.php:294
+#, fuzzy, php-format
+msgid "Last full scan: %s"
+msgstr "Последнее полное сканирование: %s"
+
+#. translators: %d: number
+#: includes/class-p2s-alerts.php:296
+#, fuzzy, php-format
+msgid "Open critical findings: %d"
+msgstr "Открытые критические выводы: %d"
+
+#. translators: %d: number
+#: includes/class-p2s-alerts.php:298
+#, fuzzy, php-format
+msgid "Unacknowledged critical events: %d"
+msgstr "Неподтвержденные критические события: %d"
+
+#: includes/class-p2s-alerts.php:300
+#, fuzzy
+msgid ""
+"If you stop receiving this message, the guard may have been disabled. Check "
+"the site."
+msgstr ""
+"Если вы перестанете получать это сообщение, охранник может быть отключен. "
+"Проверьте сайт."
+
+#. translators: 1: user login, 2: user ID
+#: includes/class-p2s-monitor.php:44
+#, fuzzy, php-format
+msgid "Acting user: %1$s (ID %2$d)"
+msgstr "Действующий пользователь: %1$s (ID %2$d)"
+
+#: includes/class-p2s-monitor.php:46
+#, fuzzy
+msgid "Context: WP-CLI"
+msgstr "Контекст: WP-CLI"
+
+#: includes/class-p2s-monitor.php:48
+#, fuzzy
+msgid "Context: WP-Cron"
+msgstr "Контекст: wp-cron"
+
+#: includes/class-p2s-monitor.php:50
+#, fuzzy
+msgid ""
+"Acting user: nobody is logged in. This change came from an unauthenticated "
+"request, which is highly suspicious."
+msgstr ""
+"Действующий пользователь: никто не вошел в систему. Это изменение произошло "
+"из-за неаутентифицированного запроса, что очень подозрительно."
+
+#. translators: %s: IP address
+#: includes/class-p2s-monitor.php:55
+#, fuzzy, php-format
+msgid "IP address: %s"
+msgstr "IP-адрес: %s"
+
+#. translators: %s: requested URL path
+#: includes/class-p2s-monitor.php:59
+#, fuzzy, php-format
+msgid "Request: %s"
+msgstr "Запрос: %s"
+
+#. translators: %s: how the role was obtained, e.g. "account created"
+#: includes/class-p2s-monitor.php:114
+#, fuzzy, php-format
+msgid "A user now has the administrator role (%s)."
+msgstr "Теперь у пользователя есть роль администратора (%s)."
+
+#. translators: %s: user login, e-mail and ID
+#: includes/class-p2s-monitor.php:116
+#, fuzzy, php-format
+msgid "New administrator: %s"
+msgstr "Новый администратор: %s"
+
+#: includes/class-p2s-monitor.php:120
+#, fuzzy
+msgid ""
+"If you did not do this, treat the site as compromised: reset all passwords "
+"and secret keys, and remove the account."
+msgstr ""
+"Если вы этого не сделали, относитесь к сайту как к скомпрометированному: "
+"сбросьте все пароли и секретные ключи и удалите учетную запись."
+
+#: includes/class-p2s-monitor.php:121
+#, fuzzy
+msgid "New administrator account"
+msgstr "Новая учетная запись администратора"
+
+#: includes/class-p2s-monitor.php:127
+#, fuzzy
+msgid "account created"
+msgstr "Аккаунт создан"
+
+#: includes/class-p2s-monitor.php:133
+#, fuzzy
+msgid "role changed"
+msgstr "Роль изменена"
+
+#: includes/class-p2s-monitor.php:139
+#, fuzzy
+msgid "role added"
+msgstr "Роль добавлена"
+
+#: includes/class-p2s-monitor.php:148 includes/class-p2s-monitor.php:149
+#, fuzzy
+msgid "(complex value)"
+msgstr "(сложное значение)"
+
+#: includes/class-p2s-monitor.php:156
+#, fuzzy
+msgid "Open registration was switched on"
+msgstr "Включена открытая регистрация"
+
+#. translators: %s: role name
+#: includes/class-p2s-monitor.php:163
+#, fuzzy, php-format
+msgid "Default role for new users was raised to %s"
+msgstr "Роль по умолчанию для новых пользователей была повышена до %s"
+
+#. translators: %s: option name such as siteurl
+#: includes/class-p2s-monitor.php:167
+#, fuzzy, php-format
+msgid "Setting changed: %s"
+msgstr "Настройка изменена: %s"
+
+#. translators: %s: option name
+#: includes/class-p2s-monitor.php:174
+#, fuzzy, php-format
+msgid "Option: %s"
+msgstr "Вариант: %s"
+
+#. translators: %s: previous value
+#: includes/class-p2s-monitor.php:176
+#, fuzzy, php-format
+msgid "Old value: %s"
+msgstr "Старое значение: %s"
+
+#. translators: %s: new value
+#: includes/class-p2s-monitor.php:178
+#, fuzzy, php-format
+msgid "New value: %s"
+msgstr "Новое значение: %s"
+
+#: includes/class-p2s-monitor.php:182
+#, fuzzy
+msgid ""
+"Changing the site URL or admin email is a common way to hijack a site or "
+"take over password resets."
+msgstr ""
+"Изменение URL-адреса сайта или электронной почты администратора — это "
+"обычный способ захватить сайт или взять на себя сброс пароля."
+
+#. translators: %s: file name
+#: includes/class-p2s-monitor.php:190
+#, fuzzy, php-format
+msgid "File name: %s"
+msgstr "Имя файла: %s"
+
+#: includes/class-p2s-monitor.php:193
+#, fuzzy
+msgid ""
+"WordPress normally refuses these; an attempt to upload a PHP file is a "
+"typical web-shell drop."
+msgstr ""
+"WordPress обычно отказывается от них; Попытка загрузить PHP-файл — это "
+"типичное падение веб-оболочки."
+
+#: includes/class-p2s-monitor.php:194
+#, fuzzy
+msgid "PHP file upload attempt"
+msgstr "Попытка загрузить файл PHP"
+
+#: includes/class-p2s-monitor.php:221
+#, fuzzy
+msgid "PHP2Shell Guard was deactivated."
+msgstr "PHP2Shell Guard был деактивирован."
+
+#: includes/class-p2s-monitor.php:224
+#, fuzzy
+msgid "If you did not do this, an attacker may be switching off the guard."
+msgstr "Если вы этого не сделали, злоумышленник может выключить охранника."
+
+#: includes/class-p2s-monitor.php:225
+#, fuzzy
+msgid "PHP2Shell Guard was deactivated"
+msgstr "PHP2Shell Guard был деактивирован"
+
+#. translators: %s: file path
+#: includes/class-p2s-monitor.php:334
+#, fuzzy, php-format
+msgid "%s appeared."
+msgstr "Появились %s."
+
+#. translators: %s: file path
+#: includes/class-p2s-monitor.php:336
+#, fuzzy, php-format
+msgid "%s was modified."
+msgstr "%s был изменен."
+
+#. translators: %s: file path
+#: includes/class-p2s-monitor.php:338
+#, fuzzy, php-format
+msgid "%s was removed."
+msgstr "%s удалена."
+
+#. translators: %s: date and time in UTC
+#: includes/class-p2s-monitor.php:343
+#, fuzzy, php-format
+msgid "File time: %s UTC"
+msgstr "Время файла: %s UTC"
+
+#: includes/class-p2s-monitor.php:346
+#, fuzzy
+msgid ""
+"If you made this change yourself, open the plugin page and click \"Accept "
+"current state\"."
+msgstr ""
+"Если вы сделали это изменение самостоятельно, откройте страницу плагина и "
+"нажмите «Принять текущее состояние»."
+
+#. translators: %s: file path
+#: includes/class-p2s-monitor.php:348
+#, fuzzy, php-format
+msgid "Critical file changed: %s"
+msgstr "Критический файл изменен: %s"
+
+#: includes/class-p2s-monitor.php:355
+#, fuzzy
+msgid "found by the watcher; it may have bypassed WordPress"
+msgstr "Найден наблюдателем; он мог обойти WordPress"
+
+#. translators: 1: file size, 2: date and time in UTC
+#: includes/class-p2s-monitor.php:376
+#, fuzzy, php-format
+msgid "Size: %1$s, modified %2$s UTC"
+msgstr "Размер: %1$s, модифицированный %2$s UTC"
+
+#: includes/class-p2s-monitor.php:378
+#, fuzzy
+msgid "Why: an executable PHP file in the uploads folder"
+msgstr "Почему: исполняемый файл PHP в папке «Загрузки»"
+
+#: includes/class-p2s-monitor.php:379
+#, fuzzy
+msgid ""
+"Why: a server config file in uploads that changes how files are executed"
+msgstr ""
+"Почему: файл конфигурации сервера в загрузке, который изменяет способ "
+"выполнения файлов"
+
+#: includes/class-p2s-monitor.php:381
+#, fuzzy
+msgid ""
+"Inspect before deleting; the file is evidence of how the site was entered."
+msgstr ""
+"Проверка перед удалением; Файл является свидетельством того, как был введен "
+"сайт."
+
+#: includes/class-p2s-monitor.php:383
+#, fuzzy
+msgid "Suspicious file in uploads"
+msgstr "Подозрительный файл в загрузке"
+
+#: includes/class-p2s-scanner.php:40
+#, fuzzy
+msgid "PHP version"
+msgstr "Версия PHP"
+
+#: includes/class-p2s-scanner.php:41
+#, fuzzy
+msgid "session.upload_progress (CVE-2026-115560 mitigation)"
+msgstr "session.upload_progress (CVE-2026-115560 смягчение последствий)"
+
+#: includes/class-p2s-scanner.php:42
+#, fuzzy
+msgid "WordPress core integrity"
+msgstr "Целостность ядра WordPress"
+
+#: includes/class-p2s-scanner.php:43
+#, fuzzy
+msgid "Plugin integrity (wordpress.org plugins)"
+msgstr "Целостность плагина (плагины WordPress.org)"
+
+#: includes/class-p2s-scanner.php:44
+#, fuzzy
+msgid "Executable files in uploads"
+msgstr "исполняемые файлы в загрузке"
+
+#: includes/class-p2s-scanner.php:45
+#, fuzzy
+msgid "Recently changed files and auto-prepend hooks"
+msgstr "Недавно измененные файлы и автоматические хуки"
+
+#: includes/class-p2s-scanner.php:46
+#, fuzzy
+msgid "Must-use plugins"
+msgstr "Обязательно используйте плагины"
+
+#: includes/class-p2s-scanner.php:47
+#, fuzzy
+msgid "Backdoor code patterns in wp-content"
+msgstr "Шаблоны кода бэкдора в WP-Content"
+
+#: includes/class-p2s-scanner.php:48
+#, fuzzy
+msgid "Users"
+msgstr "Пользователи"
+
+#: includes/class-p2s-scanner.php:49
+#, fuzzy
+msgid "Database"
+msgstr "База данных"
+
+#: includes/class-p2s-scanner.php:50
+#, fuzzy
+msgid "Scheduled events"
+msgstr "Запланированные события"
+
+#: includes/class-p2s-scanner.php:51
+#, fuzzy
+msgid "Web server logs"
+msgstr "Журналы веб-сервера"
+
+#: includes/class-p2s-scanner.php:72
+#, fuzzy
+msgid "This check could not run"
+msgstr "Эта проверка не может быть запущена"
+
+#: includes/class-p2s-scanner.php:80
+#, fuzzy
+msgid "Scan stopped early (time limit)"
+msgstr "Сканирование прекращено рано (ограничение по времени)"
+
+#: includes/class-p2s-scanner.php:81
+#, fuzzy
+msgid ""
+"The check ran out of its time budget on a large site, so part of the file "
+"tree was not examined. Run it again, or raise max_execution_time."
+msgstr ""
+"В чеке закончился бюджет на большом сайте, поэтому часть файла файла не "
+"проверялась. Запустите его снова или поднимите MAX_EXECUTION_TIME."
+
+#: includes/class-p2s-scanner.php:259
+#, fuzzy
+msgid "PHP version could not be parsed"
+msgstr "Версия PHP не может быть проанализирована"
+
+#: includes/class-p2s-scanner.php:271
+#, fuzzy
+msgid "PHP is at or above the fixed release"
+msgstr "PHP находится на уровне или выше фиксированного релиза"
+
+#. translators: 1: running PHP version, 2: fixed version
+#: includes/class-p2s-scanner.php:273
+#, fuzzy, php-format
+msgid "Running PHP %1$s; the fixed release for this branch is %2$s."
+msgstr "Запуск PHP %1$s; Фиксированный выпуск для этой ветви составляет %2$s."
+
+#: includes/class-p2s-scanner.php:278
+#, fuzzy
+msgid "PHP is below the fixed release"
+msgstr "PHP ниже фиксированного релиза"
+
+#. translators: 1: running PHP version, 2: fixed version
+#: includes/class-p2s-scanner.php:280
+#, fuzzy, php-format
+msgid "Running PHP %1$s; upgrade to %2$s or newer."
+msgstr "Запуск PHP %1$s; Обновите до %2$s или новее."
+
+#: includes/class-p2s-scanner.php:286
+#, fuzzy
+msgid "PHP is newer than the fixed branches"
+msgstr "php новее фиксированных ветвей"
+
+#: includes/class-p2s-scanner.php:293
+#, fuzzy
+msgid "PHP is on an end-of-life branch"
+msgstr "PHP находится в ветке конца жизни"
+
+#. translators: %s: running PHP version
+#: includes/class-p2s-scanner.php:295
+#, fuzzy, php-format
+msgid ""
+"Running PHP %s. php.net shipped no release for this branch, but security-"
+"team backports exist via deb.sury.org, Remi and enterprise distributions. "
+"Check the package changelog for CVE-2026-109618 and CVE-2026-109619, and "
+"plan the move to 8.2 or newer. If your distribution has backported the fix, "
+"acknowledge this finding."
+msgstr ""
+"Запуск PHP %s. php.net не поставляется в этой ветке, но бэкпорты команды "
+"безопасности существуют через deb.sury.org, REMI и корпоративные "
+"дистрибутивы. Проверьте журнал изменений пакета для CVE-2026-109618 и CVE-"
+"2026-109619 и спланируйте переезд на 8.2 или новее. Если ваше дистрибутивы "
+"вернули исправление, подтвердите этот вывод."
+
+#: includes/class-p2s-scanner.php:300
+#, fuzzy
+msgid "PHP is on an end-of-life branch with no fix"
+msgstr "PHP находится в ветке конца жизни без исправления"
+
+#. translators: %s: running PHP version
+#: includes/class-p2s-scanner.php:302
+#, fuzzy, php-format
+msgid "Running PHP %s. Move to 8.2 or newer."
+msgstr "Запуск PHP %s. Перейти к 8.2 или новее."
+
+#: includes/class-p2s-scanner.php:314
+#, fuzzy
+msgid "About this result"
+msgstr "об этом результате"
+
+#. translators: %s: PHP SAPI name
+#: includes/class-p2s-scanner.php:317
+#, fuzzy, php-format
+msgid ""
+"This is the PHP that actually serves the website (SAPI: %s), not the command-"
+"line PHP. Distribution packages (Ubuntu, Debian, RHEL) may backport the fix "
+"without changing the version number; check the package changelog for the CVE "
+"IDs. CVE-2026-115560 is not covered by the October releases."
+msgstr ""
+"Это PHP, который фактически обслуживает веб-сайт (SAPI: %s), а не PHP из "
+"командной строки. Пакеты распространения (Ubuntu, Debian, RHEL) могут "
+"перенести исправление без изменения номера версии; Проверьте журнал "
+"изменений пакета для идентификаторов CVE. CVE-2026-115560 не освещается в "
+"октябрьских релизах."
+
+#: includes/class-p2s-scanner.php:339
+#, fuzzy
+msgid "The session extension is not loaded"
+msgstr "Расширение сеанса не загружено"
+
+#: includes/class-p2s-scanner.php:339
+#, fuzzy
+msgid ""
+"The setting does not exist on this PHP build, so there is nothing to "
+"mitigate."
+msgstr "В этой сборке PHP не существует настройки, поэтому смягчить нечего."
+
+#: includes/class-p2s-scanner.php:342
+#, fuzzy
+msgid "session.upload_progress.enabled is Off"
+msgstr "session.upload_progress.enabled отключен"
+
+#: includes/class-p2s-scanner.php:342
+#, fuzzy
+msgid ""
+"The CVE-2026-115560 mitigation is in place for the PHP serving this site."
+msgstr ""
+"CVE-2026-115560 смягчение последствий для PHP, обслуживающего этот сайт."
+
+#: includes/class-p2s-scanner.php:349
+#, fuzzy
+msgid "session.upload_progress.enabled is still On"
+msgstr "session.upload_progress.enabled все еще включен"
+
+#: includes/class-p2s-scanner.php:350
+#, fuzzy
+msgid ""
+"php.net asks for session.upload_progress.enabled=0 in php.ini or the PHP-FPM "
+"pool, followed by a restart, until the CVE-2026-115560 fix ships in the next "
+"regular release. ini_set() and .user.ini do not work for this setting. The "
+"bug only bites when an application switches session.serialize_handler at "
+"runtime, which WordPress never does, so this is housekeeping rather than a "
+"sign of compromise."
+msgstr ""
+"php.net запрашивает сессию.upload_progress.enabled=0 в php.ini или пуле PHP-"
+"FPM, а затем перезапуск до тех пор, пока CVE-2026-115560 Fix не будет "
+"отправлен в следующем регулярном выпуске. ini_set() и .user.ini не работают "
+"для этого параметра. Ошибка прикусывается только тогда, когда приложение "
+"переключает session.serialize_handler во время выполнения, чего никогда не "
+"делает WordPress, так что это ведение домашнего хозяйства, а не признак "
+"компромисса."
+
+#: includes/class-p2s-scanner.php:373
+#, fuzzy
+msgid "Core integrity was not checked"
+msgstr "Целостность ядра не проверялась"
+
+#. translators: 1: WordPress version, 2: locale
+#: includes/class-p2s-scanner.php:376
+#, fuzzy, php-format
+msgid ""
+"Could not get checksums from api.wordpress.org for %1$s (%2$s). Beta "
+"versions and blocked outbound requests cause this."
+msgstr ""
+"Не удалось получить контрольные суммы с api.wordpress.org для %1$s (%2$s). "
+"Бета-версии и заблокированные исходящие запросы вызывают это."
+
+#: includes/class-p2s-scanner.php:429
+#, fuzzy
+msgid "WordPress core files were modified"
+msgstr "Файлы ядра WordPress были изменены"
+
+#: includes/class-p2s-scanner.php:429
+#, fuzzy, php-format
+msgid "%d file(s) differ from the official wordpress.org release."
+msgstr "%d -файлы отличаются от официального релиза WordPress.org."
+
+#: includes/class-p2s-scanner.php:433
+#, fuzzy
+msgid "Unknown files inside wp-admin or wp-includes"
+msgstr "Неизвестные файлы внутри wp-admin или wp-includes"
+
+#: includes/class-p2s-scanner.php:433
+#, fuzzy, php-format
+msgid "%d file(s) do not belong to WordPress. This is often a dropped shell."
+msgstr "%d-файлы не принадлежат WordPress. Часто это упущенная оболочка."
+
+#: includes/class-p2s-scanner.php:437
+#, fuzzy
+msgid "Core PHP files are missing"
+msgstr "Отсутствуют основные файлы PHP"
+
+#: includes/class-p2s-scanner.php:437
+#, fuzzy
+msgid "Reinstall core from Dashboard, Updates, Re-install."
+msgstr "Переустановите Core из Dashboard, обновления, переустановите."
+
+#: includes/class-p2s-scanner.php:441
+#, fuzzy
+msgid "Extra PHP files in the site root"
+msgstr "Дополнительные PHP-файлы в корне сайта"
+
+#: includes/class-p2s-scanner.php:441
+#, fuzzy
+msgid ""
+"A custom script at the site root is the usual benign cause; check each one."
+msgstr ""
+"Пользовательский скрипт в корне сайта является обычной доброкачественной "
+"причиной; Проверьте каждый."
+
+#: includes/class-p2s-scanner.php:444
+#, fuzzy
+msgid "Core files match wordpress.org checksums"
+msgstr "Основные файлы соответствуют контрольным суммам wordpress.org"
+
+#: includes/class-p2s-scanner.php:444
+#, fuzzy
+msgid "No modified files and no extra files in wp-admin or wp-includes."
+msgstr ""
+"Никаких измененных файлов и никаких дополнительных файлов в WP-Admin или WP-"
+"включает."
+
+#: includes/class-p2s-scanner.php:495
+#, fuzzy
+msgid "Plugin files differ from wordpress.org"
+msgstr "Файлы плагинов отличаются от WordPress.org"
+
+#: includes/class-p2s-scanner.php:495
+#, fuzzy, php-format
+msgid ""
+"%d file(s) were modified, added or removed compared with the published "
+"release."
+msgstr ""
+"%d-файлы были изменены, добавлены или удалены по сравнению с опубликованным "
+"релизом."
+
+#: includes/class-p2s-scanner.php:498
+#, fuzzy
+msgid "Some plugins could not be verified"
+msgstr "Некоторые плагины не могут быть проверены"
+
+#: includes/class-p2s-scanner.php:498
+#, fuzzy
+msgid ""
+"The checksum request failed (network or wordpress.org unavailable). Try "
+"again later."
+msgstr ""
+"Не удалось выполнить запрос контрольной суммы (Network или WordPress.org "
+"недоступен). Повторите попытку позже."
+
+#: includes/class-p2s-scanner.php:502
+#, fuzzy
+msgid "Not verifiable (premium or custom plugins)"
+msgstr "Не поддаются проверке (премиальные или кастомные плагины)"
+
+#: includes/class-p2s-scanner.php:502
+#, fuzzy
+msgid "Compare these against a fresh download or your repository."
+msgstr "Сравните их со свежей загрузкой или вашим репозиторием."
+
+#: includes/class-p2s-scanner.php:505
+#, fuzzy
+msgid "Verified plugins match wordpress.org checksums"
+msgstr "Проверенные плагины соответствуют контрольным суммам wordpress.org"
+
+#: includes/class-p2s-scanner.php:505
+#, fuzzy, php-format
+msgid "%d plugin(s) verified."
+msgstr "Подтверждено %d плагины."
+
+#: includes/class-p2s-scanner.php:508
+#, fuzzy
+msgid "No plugins to verify"
+msgstr "Нет плагинов для проверки"
+
+#: includes/class-p2s-scanner.php:640
+#, fuzzy
+msgid "No uploads directory found"
+msgstr "Каталог загрузок не найден"
+
+#: includes/class-p2s-scanner.php:643
+#, fuzzy
+msgid "No executable PHP in uploads"
+msgstr "Нет исполняемого файла php в загрузке"
+
+#: includes/class-p2s-scanner.php:659
+#, fuzzy
+msgid "PHP files in the uploads folder"
+msgstr "php-файлы в папке «Загрузить»"
+
+#: includes/class-p2s-scanner.php:659
+#, fuzzy, php-format
+msgid "%d file(s). Almost always malicious; inspect before deleting."
+msgstr "%d файл(а). почти всегда злонамерен; Перед удалением осмотрите."
+
+#: includes/class-p2s-scanner.php:663
+#, fuzzy
+msgid ".htaccess or .user.ini in uploads that changes how files are executed"
+msgstr ""
+".htaccess или .user.ini в загрузках, которые меняют способ выполнения файлов"
+
+#: includes/class-p2s-scanner.php:663
+#, fuzzy
+msgid ""
+"WordPress never writes these there; attackers use them to make other file "
+"types run as PHP."
+msgstr ""
+"WordPress никогда не пишет их там; Злоумышленники используют их, чтобы "
+"другие типы файлов работали как PHP."
+
+#: includes/class-p2s-scanner.php:765
+#, fuzzy
+msgid "auto_prepend_file / auto_append_file is set"
+msgstr "auto_prepend_file / auto_append_file установлен"
+
+#: includes/class-p2s-scanner.php:766
+#, fuzzy
+msgid "This looks like the Wordfence firewall loader, which is legitimate."
+msgstr ""
+"Это похоже на загрузчик брандмауэра WordFence, который является законным."
+
+#: includes/class-p2s-scanner.php:766
+#, fuzzy
+msgid ""
+"Legitimate for Wordfence (wordfence-waf.php); anything else is a red flag "
+"because the file runs before every request."
+msgstr ""
+"законно для WordFence (wordfence-waf.php); Все остальное является красным "
+"флагом, потому что файл выполняется перед каждым запросом."
+
+#: includes/class-p2s-scanner.php:770
+#, fuzzy
+msgid "No auto_prepend / auto_append directives"
+msgstr "Нет auto_prepend / auto_append директивы"
+
+#: includes/class-p2s-scanner.php:774
+#, fuzzy
+msgid "Files named *.l10n.php that are not translation files"
+msgstr "Файлы с именами *.l10n.php, которые не являются файлами перевода"
+
+#: includes/class-p2s-scanner.php:774
+msgid ""
+"WordPress writes these as a single \"return [...]\" statement; these do not "
+"look like that. Inspect them."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:803
+#, fuzzy
+msgid "Many PHP/config files changed in the window"
+msgstr "Многие файлы PHP/CONFIG изменились в окне"
+
+#: includes/class-p2s-scanner.php:803
+#, fuzzy, php-format
+msgid ""
+"%1$d file(s) changed since %2$s. Expected if you updated plugins or core "
+"since then; anything else needs a look. By directory: count, newest change, "
+"directory."
+msgstr ""
+"%1$d Файл(ы) изменен с %2$s. Ожидается, если вы обновили плагины или ядро с "
+"тех пор; Все остальное нуждается в просмотре. По каталогу: count, новейшее "
+"изменение, каталог."
+
+#: includes/class-p2s-scanner.php:809
+#, fuzzy
+msgid "PHP/config files changed in the window"
+msgstr "Файлы PHP/Config изменены в окне"
+
+#: includes/class-p2s-scanner.php:809
+#, fuzzy, php-format
+msgid ""
+"%1$d file(s) changed since %2$s. Expected if you updated plugins or core "
+"since then; anything else needs a look."
+msgstr ""
+"%1$d Файл(ы) изменен с %2$s. Ожидается, если вы обновили плагины или ядро с "
+"тех пор; Все остальное нуждается в просмотре."
+
+#: includes/class-p2s-scanner.php:811
+#, fuzzy
+msgid "No PHP/config files modified in the window"
+msgstr "В окне не изменены файлы php/config"
+
+#: includes/class-p2s-scanner.php:811
+#, fuzzy, php-format
+msgid ""
+"Since %s. Attackers can fake timestamps, so the checksum checks are the "
+"stronger test."
+msgstr ""
+"Так как %s. Злоумышленники могут подделывать временные метки, поэтому "
+"проверки контрольной суммы являются более сильным тестом."
+
+#: includes/class-p2s-scanner.php:814
+#, fuzzy
+msgid "Translation files changed"
+msgstr "Файлы перевода изменены"
+
+#: includes/class-p2s-scanner.php:814
+#, fuzzy, php-format
+msgid ""
+"%d *.l10n.php file(s) under wp-content/languages changed. WordPress rewrites "
+"these when language packs update, so they are not listed. They are still "
+"covered by the code-pattern scan."
+msgstr ""
+"%d *.l10n.php Файлы (файлы) в WP-Content/Languages изменены. WordPress "
+"переписывает их при обновлении языковых пакетов, поэтому они не указаны в "
+"списке. Они по-прежнему охвачены сканированием кода."
+
+#: includes/class-p2s-scanner.php:832
+#, fuzzy
+msgid "Must-use plugins are present"
+msgstr "Присутствуют обязательные плагины"
+
+#: includes/class-p2s-scanner.php:832
+#, fuzzy
+msgid ""
+"They run on every request and do not appear in the normal plugin list. "
+"Confirm each one is yours. Changes to this folder are watched in real time."
+msgstr ""
+"Они работают по каждому запросу и не появляются в обычном списке плагинов. "
+"Подтвердите, что каждый из них принадлежит вам. Изменения в этой папке "
+"смотрятся в реальном времени."
+
+#: includes/class-p2s-scanner.php:834
+#, fuzzy
+msgid "No must-use plugins"
+msgstr "Никаких обязательных плагинов"
+
+#: includes/class-p2s-scanner.php:866
+#, fuzzy
+msgid "Files with classic web-shell patterns"
+msgstr "Файлы с классическими шаблонами Web-Shell"
+
+#: includes/class-p2s-scanner.php:866
+#, fuzzy
+msgid ""
+"Some obfuscated premium plugins trip this too, so confirm by reading the "
+"file."
+msgstr ""
+"Некоторые запутанные плагины премиум-класса тоже сбивают с толку, поэтому "
+"подтвердите, прочитав файл."
+
+#: includes/class-p2s-scanner.php:868
+#, fuzzy
+msgid "No classic web-shell patterns found"
+msgstr "Классические шаблоны Web-Shell не найдены"
+
+#: includes/class-p2s-scanner.php:871
+#, fuzzy
+msgid "Large files skipped"
+msgstr "Пропущены большие файлы"
+
+#: includes/class-p2s-scanner.php:871
+#, fuzzy, php-format
+msgid "%d PHP file(s) over 1.5 MB were not scanned."
+msgstr "%d php-файлы более 1,5 МБ не сканировались."
+
+#: includes/class-p2s-scanner.php:897
+#, fuzzy
+msgid "Administrators"
+msgstr "Администраторы"
+
+#: includes/class-p2s-scanner.php:897
+#, fuzzy
+msgid "Confirm every one is expected."
+msgstr "Подтвердите, что все ожидаются."
+
+#: includes/class-p2s-scanner.php:909
+#, fuzzy
+msgid "Administrator accounts that did not exist at the baseline"
+msgstr "Учетные записи администраторов, которых не было в базовой"
+
+#: includes/class-p2s-scanner.php:909
+#, fuzzy
+msgid ""
+"If you created these yourself, use \"Accept current state\" on the Status "
+"tab."
+msgstr ""
+"Если вы создали их самостоятельно, используйте «Принять текущее состояние» "
+"на вкладке «Статус»."
+
+#: includes/class-p2s-scanner.php:926
+#, fuzzy
+msgid "Accounts registered in the window"
+msgstr "Учетные записи, зарегистрированные в окне"
+
+#: includes/class-p2s-scanner.php:926 includes/class-p2s-scanner.php:928
+#, fuzzy, php-format
+msgid "Since %s."
+msgstr "Так как %s."
+
+#: includes/class-p2s-scanner.php:928
+#, fuzzy
+msgid "No accounts registered in the window"
+msgstr "В окне не зарегистрированы учетные записи"
+
+#: includes/class-p2s-scanner.php:942
+#, fuzzy
+msgid "Site URLs"
+msgstr "URL-адреса сайта"
+
+#: includes/class-p2s-scanner.php:942
+#, fuzzy
+msgid "Both should be your own domain."
+msgstr "Оба должны быть вашим собственным доменом."
+
+#: includes/class-p2s-scanner.php:944
+#, fuzzy
+msgid "siteurl and home are on different hosts"
+msgstr "siteurl и home находятся на разных хостах"
+
+#: includes/class-p2s-scanner.php:944
+#, fuzzy
+msgid ""
+"Legitimate in some setups (WordPress in its own folder or subdomain), but "
+"also a common redirect hijack."
+msgstr ""
+"Легитимно в некоторых настройках (WordPress в своей собственной папке или "
+"субдомене), но также является общим перехватом перенаправления."
+
+#: includes/class-p2s-scanner.php:964
+#, fuzzy
+msgid "The options scan failed"
+msgstr "Ошибка сканирования параметров"
+
+#: includes/class-p2s-scanner.php:964
+#, fuzzy
+msgid "Large sites can hit MySQL regex limits, so options were not checked."
+msgstr ""
+"Большие сайты могут преодолевать лимиты регулярных выражений MySQL, поэтому "
+"параметры не проверялись."
+
+#: includes/class-p2s-scanner.php:970
+#, fuzzy
+msgid "Options containing script tags or obfuscation functions"
+msgstr "Параметры, содержащие теги скриптов или функции запутывания"
+
+#: includes/class-p2s-scanner.php:970
+#, fuzzy
+msgid "Analytics and header-script plugins are legitimate hits."
+msgstr "Плагины аналитики и заголовка являются законными хитами."
+
+#: includes/class-p2s-scanner.php:972
+#, fuzzy
+msgid "No suspicious content in options"
+msgstr "Нет подозрительного контента в опциях"
+
+#: includes/class-p2s-scanner.php:976
+#, fuzzy
+msgid "The posts scan failed"
+msgstr "Сканирование сообщений не удалось"
+
+#: includes/class-p2s-scanner.php:976
+#, fuzzy
+msgid ""
+"Large sites can hit MySQL regex limits, so post content was not checked."
+msgstr ""
+"Большие сайты могут преодолевать лимиты регулярных выражений MySQL, поэтому "
+"содержимое публикации не проверялось."
+
+#: includes/class-p2s-scanner.php:982
+#, fuzzy
+msgid "Posts or pages with external scripts or obfuscation"
+msgstr "сообщения или страницы с внешними скриптами или запутыванием"
+
+#: includes/class-p2s-scanner.php:982
+#, fuzzy
+msgid "Embeds can be legitimate."
+msgstr "Вставки могут быть законными."
+
+#: includes/class-p2s-scanner.php:984
+#, fuzzy
+msgid "No suspicious scripts in post content"
+msgstr "Нет подозрительных скриптов в содержимом поста"
+
+#: includes/class-p2s-scanner.php:1012
+#, fuzzy
+msgid "Scheduled events with no code attached"
+msgstr "Запланированные события без прикрепленного кода"
+
+#: includes/class-p2s-scanner.php:1012
+#, fuzzy
+msgid ""
+"Usually left behind by a removed plugin; sometimes a persistence trick. "
+"Hooks that only register on certain pages can show up here too."
+msgstr ""
+"обычно оставлены удаленным плагином; Иногда трюк настойчивости. Здесь также "
+"могут отображаться хуки, которые регистрируются только на определенных "
+"страницах."
+
+#: includes/class-p2s-scanner.php:1014
+#, fuzzy
+msgid "Every scheduled event has code attached"
+msgstr "Каждое запланированное событие имеет прикрепленный код"
+
+#: includes/class-p2s-scanner.php:1014
+#, fuzzy, php-format
+msgid "%d event(s) examined."
+msgstr "%d Событие(и) исследовано."
+
+#: includes/class-p2s-scanner.php:1104
+#, fuzzy
+msgid "No readable server logs found"
+msgstr "Удобные журналы сервера не найдены"
+
+#: includes/class-p2s-scanner.php:1104
+#, fuzzy, php-format
+msgid ""
+"Many hosts keep logs out of reach of PHP. Add log paths on the Settings tab "
+"(one path or glob per line), or ask your host for the access logs from %s "
+"onward before they rotate away."
+msgstr ""
+"Многие хосты хранят журналы в недоступном для PHP. Добавьте пути к журналу "
+"на вкладке «Настройки» (по одному пути или шарика в строке) или обратитесь к "
+"своему хосту за журналами доступа от %s и далее, прежде чем они повернутся."
+
+#: includes/class-p2s-scanner.php:1179
+#, fuzzy, php-format
+msgid ""
+"Read the last 8 MB of %d access log(s). If your host writes one log per "
+"layer (nginx in front of Apache), requests may be counted twice; the ratios "
+"still hold."
+msgstr ""
+"Прочитайте последние 8 МБ журнала доступа %d . Если ваш хост записывает по "
+"одному журналу на слой (nginx перед Apache), запросы могут быть засчитаны "
+"дважды; Соотношения все еще сохраняются."
+
+#: includes/class-p2s-scanner.php:1182
+#, fuzzy
+msgid "The access logs do not reach the window"
+msgstr "Журналы доступа не доходят до окна"
+
+#: includes/class-p2s-scanner.php:1182
+#, fuzzy, php-format
+msgid ""
+"No requests on or after %s. The window has probably rotated away; ask the "
+"host for archived logs."
+msgstr ""
+"Нет запросов на %s или после. Окно, вероятно, повернулось; Спросите у хоста "
+"архивные журналы."
+
+#: includes/class-p2s-scanner.php:1184
+#, fuzzy
+msgid "No 5xx responses in the window"
+msgstr "Нет ответов 5xx в окне"
+
+#: includes/class-p2s-scanner.php:1184
+#, php-format
+msgid ""
+"%1$d requests since %2$s. Failed memory-corruption attempts usually crash "
+"the PHP worker and show up as 500/502 bursts, so a flat zero is a strong "
+"reassuring signal. "
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1186
+#, fuzzy
+msgid "5xx responses above the pre-window baseline"
+msgstr "5xx ответов выше базового уровня перед окном"
+
+#: includes/class-p2s-scanner.php:1186
+#, php-format
+msgid ""
+"%1$d 5xx since %2$s (worst day %3$d vs %4$d before). Bursts of 500/502 on "
+"random URLs are what failed exploitation attempts look like; a steady "
+"trickle on one URL is usually a broken plugin. "
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1186 includes/class-p2s-scanner.php:1188
+#, fuzzy
+msgid "Top URLs returning 5xx in the window (count, path):"
+msgstr "Верхние URL-адреса, возвращающие 5xx в окне (количество, путь):"
+
+#: includes/class-p2s-scanner.php:1188
+#, fuzzy
+msgid "5xx responses in line with the baseline"
+msgstr "5xx ответов в соответствии с базовым уровнем"
+
+#: includes/class-p2s-scanner.php:1188
+#, php-format
+msgid "%1$d 5xx since %2$s (worst day %3$d vs %4$d before). "
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1193
+#, fuzzy
+msgid "PHP worker crashes in the error logs"
+msgstr "Работник PHP вылетает в журналах ошибок"
+
+#: includes/class-p2s-scanner.php:1193
+#, fuzzy, php-format
+msgid ""
+"%d crash line(s) (segfault or bus error). A crash is what a failed PHP2Shell "
+"attempt leaves behind, but buggy extensions crash too; compare the dates "
+"with the window."
+msgstr ""
+"%d Линия(и) сбоя (SegFault или Bus error). Сбой — это то, что оставляет "
+"после себя неудачная попытка PHP2Shell, но расширения багги тоже вылетают; "
+"Сравните даты с окном."
+
+#: includes/class-p2s-scanner.php:1195
+#, fuzzy
+msgid "No PHP worker crashes in the error logs"
+msgstr "Ни один рабочий PHP не сбой в журналах ошибок"
+
+#: includes/class-p2s-scanner.php:1195
+#, fuzzy, php-format
+msgid "%d error log file(s) read."
+msgstr "%d Файлы журнала ошибок считываются."
+
+#: includes/class-p2s-scanner.php:1199
+#, fuzzy
+msgid "Logs were readable but contained nothing to evaluate"
+msgstr "Журналы были читабельны, но не содержали ничего для оценки"

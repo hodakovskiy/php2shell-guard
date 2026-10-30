@@ -1,0 +1,1273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR PHP2Shell Guard
+# This file is distributed under the same license as the PHP2Shell Guard package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PHP2Shell Guard 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-30 07:31+0000\n"
+"PO-Revision-Date: 2026-10-30 20:14+0000\n"
+"Last-Translator: \n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.9; wp-7.1.4; php-8.3.36"
+
+#: php2shell-guard.php:65
+msgid "Every 15 minutes"
+msgstr ""
+
+#: includes/class-p2s-admin.php:30 includes/class-p2s-admin.php:31
+#: includes/class-p2s-admin.php:259
+msgid "PHP2Shell Guard"
+msgstr ""
+
+#: includes/class-p2s-admin.php:69
+msgid "Scan complete. Reloading..."
+msgstr ""
+
+#: includes/class-p2s-admin.php:70
+msgid "Request failed"
+msgstr ""
+
+#: includes/class-p2s-admin.php:77
+msgid "Open"
+msgstr ""
+
+#: includes/class-p2s-admin.php:86 includes/class-p2s-admin.php:88
+msgid "Get help"
+msgstr ""
+
+#: includes/class-p2s-admin.php:107
+msgid "PHP2Shell Guard:"
+msgstr ""
+
+#. translators: %d: number of critical items
+#: includes/class-p2s-admin.php:111
+#, php-format
+msgid "%d critical item needs your attention."
+msgid_plural "%d critical items need your attention."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-p2s-admin.php:116
+msgid "Review now"
+msgstr ""
+
+#: includes/class-p2s-admin.php:151
+msgid "You do not have permission to do that."
+msgstr ""
+
+#: includes/class-p2s-admin.php:207
+msgid "Test alert"
+msgstr ""
+
+#: includes/class-p2s-admin.php:208
+msgid ""
+"This is a test from PHP2Shell Guard. If you can read this, alerts reach you."
+msgstr ""
+
+#: includes/class-p2s-admin.php:226
+msgid "Critical"
+msgstr ""
+
+#: includes/class-p2s-admin.php:227
+msgid "Review"
+msgstr ""
+
+#: includes/class-p2s-admin.php:228
+msgid "OK"
+msgstr ""
+
+#: includes/class-p2s-admin.php:229
+msgid "Info"
+msgstr ""
+
+#: includes/class-p2s-admin.php:251
+msgid "Status"
+msgstr ""
+
+#: includes/class-p2s-admin.php:252 includes/class-p2s-admin.php:402
+msgid "Live events"
+msgstr ""
+
+#: includes/class-p2s-admin.php:253
+msgid "Alerts & settings"
+msgstr ""
+
+#: includes/class-p2s-admin.php:286
+msgid "Acknowledged."
+msgstr ""
+
+#: includes/class-p2s-admin.php:287
+msgid "Current state accepted as the new baseline."
+msgstr ""
+
+#: includes/class-p2s-admin.php:288
+msgid "Acknowledgements cleared."
+msgstr ""
+
+#: includes/class-p2s-admin.php:289
+msgid ""
+"Test alert sent through every configured channel. Check that it arrived."
+msgstr ""
+
+#: includes/class-p2s-admin.php:290
+msgid "At least one channel failed. See the alert log below."
+msgstr ""
+
+#: includes/class-p2s-admin.php:296
+msgid "Settings saved."
+msgstr ""
+
+#. translators: %s: time span, e.g. "3 hours"
+#: includes/class-p2s-admin.php:307 includes/class-p2s-admin.php:352
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/class-p2s-admin.php:307 includes/class-p2s-alerts.php:289
+msgid "never"
+msgstr ""
+
+#: includes/class-p2s-admin.php:311
+msgid "critical"
+msgstr ""
+
+#: includes/class-p2s-admin.php:312
+msgid "to review"
+msgstr ""
+
+#: includes/class-p2s-admin.php:313
+msgid "last full scan"
+msgstr ""
+
+#: includes/class-p2s-admin.php:314
+msgid "until next scan"
+msgstr ""
+
+#: includes/class-p2s-admin.php:318
+msgid "Run full scan"
+msgstr ""
+
+#: includes/class-p2s-admin.php:319
+msgid "Accept current state"
+msgstr ""
+
+#: includes/class-p2s-admin.php:321
+msgid "Clear acknowledgements"
+msgstr ""
+
+#. translators: %s: time since baseline
+#: includes/class-p2s-admin.php:330
+#, php-format
+msgid ""
+"Real-time watch is active. Baseline set %s ago: changes to wp-config.php, ."
+"htaccess, .user.ini, must-use plugins and the list of administrators raise "
+"an alert. Use \"Accept current state\" after legitimate changes."
+msgstr ""
+
+#: includes/class-p2s-admin.php:334
+msgid ""
+"No baseline yet. It is taken automatically after the first scan that finds "
+"nothing critical. Until then only uploads and live events are watched. Fix "
+"any critical findings first, then run a scan or click \"Accept current "
+"state\"."
+msgstr ""
+
+#: includes/class-p2s-admin.php:343
+msgid "No scan has run yet. Click \"Run full scan\"."
+msgstr ""
+
+#: includes/class-p2s-admin.php:361
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-p2s-admin.php:363
+#, php-format
+msgid "%d more not shown"
+msgstr ""
+
+#: includes/class-p2s-admin.php:369
+msgid "Acknowledged"
+msgstr ""
+
+#: includes/class-p2s-admin.php:371 includes/class-p2s-admin.php:414
+msgid "Acknowledge"
+msgstr ""
+
+#: includes/class-p2s-admin.php:387
+msgid "Need help cleaning up?"
+msgstr ""
+
+#: includes/class-p2s-admin.php:403
+msgid ""
+"Things the guard saw as they happened: new administrators, changed site URL "
+"or admin email, PHP uploads, edits to critical files."
+msgstr ""
+
+#: includes/class-p2s-admin.php:405
+msgid "Nothing recorded yet."
+msgstr ""
+
+#: includes/class-p2s-admin.php:408
+msgid "Acknowledge all"
+msgstr ""
+
+#: includes/class-p2s-admin.php:410 includes/class-p2s-admin.php:427
+msgid "Time (UTC)"
+msgstr ""
+
+#: includes/class-p2s-admin.php:410
+msgid "Level"
+msgstr ""
+
+#: includes/class-p2s-admin.php:410
+msgid "Event"
+msgstr ""
+
+#: includes/class-p2s-admin.php:421
+msgid "Alert delivery log"
+msgstr ""
+
+#: includes/class-p2s-admin.php:424
+msgid "No alerts have been sent yet."
+msgstr ""
+
+#: includes/class-p2s-admin.php:427
+msgid "Subject"
+msgstr ""
+
+#: includes/class-p2s-admin.php:427
+msgid "Delivery"
+msgstr ""
+
+#: includes/class-p2s-admin.php:433
+msgid "no channel configured"
+msgstr ""
+
+#: includes/class-p2s-admin.php:445
+msgid "Email alerts"
+msgstr ""
+
+#: includes/class-p2s-admin.php:446
+msgid "Send alerts by email"
+msgstr ""
+
+#: includes/class-p2s-admin.php:448
+msgid ""
+"Comma or line separated. Empty means the site administrator email. Many "
+"hosts send WordPress mail unreliably, so also set up a webhook or Telegram."
+msgstr ""
+
+#: includes/class-p2s-admin.php:450
+msgid "Webhook"
+msgstr ""
+
+#: includes/class-p2s-admin.php:453
+msgid "Generic JSON (structured)"
+msgstr ""
+
+#: includes/class-p2s-admin.php:458
+msgid "Telegram"
+msgstr ""
+
+#: includes/class-p2s-admin.php:461
+msgid ""
+"Create a bot with @BotFather, send it a message, and use your chat ID. The "
+"token is stored in the database like any plugin setting."
+msgstr ""
+
+#: includes/class-p2s-admin.php:463
+msgid "Also alert on \"review\" items"
+msgstr ""
+
+#: includes/class-p2s-admin.php:464
+msgid ""
+"Notify about items that need a human look, not only critical ones (noisier)"
+msgstr ""
+
+#: includes/class-p2s-admin.php:467
+msgid "Scan frequency"
+msgstr ""
+
+#: includes/class-p2s-admin.php:468
+msgid "Hourly"
+msgstr ""
+
+#: includes/class-p2s-admin.php:468
+msgid "Twice daily"
+msgstr ""
+
+#: includes/class-p2s-admin.php:468
+msgid "Daily"
+msgstr ""
+
+#: includes/class-p2s-admin.php:471
+msgid ""
+"The watcher for critical files and administrators runs every 15 minutes "
+"regardless. These timers rely on WP-Cron; on low-traffic sites trigger wp-"
+"cron.php from a real cron job."
+msgstr ""
+
+#: includes/class-p2s-admin.php:473
+msgid "Inspect changes since"
+msgstr ""
+
+#: includes/class-p2s-admin.php:474
+msgid "Start of the window to inspect (first known exploitation)."
+msgstr ""
+
+#: includes/class-p2s-admin.php:477
+msgid "Log files"
+msgstr ""
+
+#: includes/class-p2s-admin.php:479
+msgid ""
+"Optional. One path or glob per line. Leave empty to look in the usual places."
+" PHP often cannot read server logs; ask your host if nothing is found."
+msgstr ""
+
+#: includes/class-p2s-admin.php:481
+msgid "Daily heartbeat"
+msgstr ""
+
+#: includes/class-p2s-admin.php:482
+msgid "Send a daily \"I am alive\" message"
+msgstr ""
+
+#: includes/class-p2s-admin.php:483
+msgid ""
+"If the message stops, the guard may have been switched off. This is how you "
+"notice a silent failure."
+msgstr ""
+
+#: includes/class-p2s-admin.php:489
+msgid "Test"
+msgstr ""
+
+#: includes/class-p2s-admin.php:490
+msgid "Send a test alert"
+msgstr ""
+
+#: includes/class-p2s-admin.php:491
+msgid "Save your settings first, then send a test."
+msgstr ""
+
+#: includes/class-p2s-admin.php:496
+msgid ""
+"PHP2Shell Guard only reads and reports. It never modifies or deletes files. "
+"It cannot see inside your server beyond what PHP can read, and an attacker "
+"with full code execution could tamper with any plugin, so treat a clean "
+"result as \"no signs found\", not as proof."
+msgstr ""
+
+#. translators: %s: site address
+#: includes/class-p2s-alerts.php:36
+#, php-format
+msgid "Site: %s"
+msgstr ""
+
+#. translators: %s: date and time in UTC
+#: includes/class-p2s-alerts.php:38
+#, php-format
+msgid "Time: %s UTC"
+msgstr ""
+
+#. translators: %s: admin page URL
+#: includes/class-p2s-alerts.php:41
+#, php-format
+msgid "Review and acknowledge: %s"
+msgstr ""
+
+#: includes/class-p2s-alerts.php:54
+msgid "wp_mail() returned false"
+msgstr ""
+
+#: includes/class-p2s-alerts.php:56
+msgid "no valid recipient"
+msgstr ""
+
+#. translators: %s: contact person or company
+#: includes/class-p2s-alerts.php:122
+#, php-format
+msgid "Need help cleaning up? Contact %s"
+msgstr ""
+
+#: includes/class-p2s-alerts.php:167
+msgid "Alert flood: further alerts suppressed for this hour"
+msgstr ""
+
+#. translators: %d: maximum alerts per hour
+#: includes/class-p2s-alerts.php:169
+#, php-format
+msgid ""
+"More than %d alerts were raised within an hour. The rest are still recorded "
+"on the Live events tab."
+msgstr ""
+
+#: includes/class-p2s-alerts.php:257
+msgid "CRITICAL"
+msgstr ""
+
+#: includes/class-p2s-alerts.php:257
+msgid "REVIEW"
+msgstr ""
+
+#: includes/class-p2s-alerts.php:265
+msgid "... more on the admin page"
+msgstr ""
+
+#. translators: 1: number of findings, 2: site host name
+#: includes/class-p2s-alerts.php:272
+#, php-format
+msgid "%1$d new critical finding on %2$s"
+msgid_plural "%1$d new critical findings on %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of items, 2: site host name
+#: includes/class-p2s-alerts.php:274
+#, php-format
+msgid "%1$d new item to review on %2$s"
+msgid_plural "%1$d new items to review on %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-p2s-alerts.php:291
+msgid "Heartbeat: PHP2Shell Guard is running"
+msgstr ""
+
+#. translators: %s: date and time, or "never"
+#: includes/class-p2s-alerts.php:294
+#, php-format
+msgid "Last full scan: %s"
+msgstr ""
+
+#. translators: %d: number
+#: includes/class-p2s-alerts.php:296
+#, php-format
+msgid "Open critical findings: %d"
+msgstr ""
+
+#. translators: %d: number
+#: includes/class-p2s-alerts.php:298
+#, php-format
+msgid "Unacknowledged critical events: %d"
+msgstr ""
+
+#: includes/class-p2s-alerts.php:300
+msgid ""
+"If you stop receiving this message, the guard may have been disabled. Check "
+"the site."
+msgstr ""
+
+#. translators: 1: user login, 2: user ID
+#: includes/class-p2s-monitor.php:44
+#, php-format
+msgid "Acting user: %1$s (ID %2$d)"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:46
+msgid "Context: WP-CLI"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:48
+msgid "Context: WP-Cron"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:50
+msgid ""
+"Acting user: nobody is logged in. This change came from an unauthenticated "
+"request, which is highly suspicious."
+msgstr ""
+
+#. translators: %s: IP address
+#: includes/class-p2s-monitor.php:55
+#, php-format
+msgid "IP address: %s"
+msgstr ""
+
+#. translators: %s: requested URL path
+#: includes/class-p2s-monitor.php:59
+#, php-format
+msgid "Request: %s"
+msgstr ""
+
+#. translators: %s: how the role was obtained, e.g. "account created"
+#: includes/class-p2s-monitor.php:114
+#, php-format
+msgid "A user now has the administrator role (%s)."
+msgstr ""
+
+#. translators: %s: user login, e-mail and ID
+#: includes/class-p2s-monitor.php:116
+#, php-format
+msgid "New administrator: %s"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:120
+msgid ""
+"If you did not do this, treat the site as compromised: reset all passwords "
+"and secret keys, and remove the account."
+msgstr ""
+
+#: includes/class-p2s-monitor.php:121
+msgid "New administrator account"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:127
+msgid "account created"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:133
+msgid "role changed"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:139
+msgid "role added"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:148 includes/class-p2s-monitor.php:149
+msgid "(complex value)"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:156
+msgid "Open registration was switched on"
+msgstr ""
+
+#. translators: %s: role name
+#: includes/class-p2s-monitor.php:163
+#, php-format
+msgid "Default role for new users was raised to %s"
+msgstr ""
+
+#. translators: %s: option name such as siteurl
+#: includes/class-p2s-monitor.php:167
+#, php-format
+msgid "Setting changed: %s"
+msgstr ""
+
+#. translators: %s: option name
+#: includes/class-p2s-monitor.php:174
+#, php-format
+msgid "Option: %s"
+msgstr ""
+
+#. translators: %s: previous value
+#: includes/class-p2s-monitor.php:176
+#, php-format
+msgid "Old value: %s"
+msgstr ""
+
+#. translators: %s: new value
+#: includes/class-p2s-monitor.php:178
+#, php-format
+msgid "New value: %s"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:182
+msgid ""
+"Changing the site URL or admin email is a common way to hijack a site or "
+"take over password resets."
+msgstr ""
+
+#. translators: %s: file name
+#: includes/class-p2s-monitor.php:190
+#, php-format
+msgid "File name: %s"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:193
+msgid ""
+"WordPress normally refuses these; an attempt to upload a PHP file is a "
+"typical web-shell drop."
+msgstr ""
+
+#: includes/class-p2s-monitor.php:194
+msgid "PHP file upload attempt"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:221
+msgid "PHP2Shell Guard was deactivated."
+msgstr ""
+
+#: includes/class-p2s-monitor.php:224
+msgid "If you did not do this, an attacker may be switching off the guard."
+msgstr ""
+
+#: includes/class-p2s-monitor.php:225
+msgid "PHP2Shell Guard was deactivated"
+msgstr ""
+
+#. translators: %s: file path
+#: includes/class-p2s-monitor.php:334
+#, php-format
+msgid "%s appeared."
+msgstr ""
+
+#. translators: %s: file path
+#: includes/class-p2s-monitor.php:336
+#, php-format
+msgid "%s was modified."
+msgstr ""
+
+#. translators: %s: file path
+#: includes/class-p2s-monitor.php:338
+#, php-format
+msgid "%s was removed."
+msgstr ""
+
+#. translators: %s: date and time in UTC
+#: includes/class-p2s-monitor.php:343
+#, php-format
+msgid "File time: %s UTC"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:346
+msgid ""
+"If you made this change yourself, open the plugin page and click \"Accept "
+"current state\"."
+msgstr ""
+
+#. translators: %s: file path
+#: includes/class-p2s-monitor.php:348
+#, php-format
+msgid "Critical file changed: %s"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:355
+msgid "found by the watcher; it may have bypassed WordPress"
+msgstr ""
+
+#. translators: 1: file size, 2: date and time in UTC
+#: includes/class-p2s-monitor.php:376
+#, php-format
+msgid "Size: %1$s, modified %2$s UTC"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:378
+msgid "Why: an executable PHP file in the uploads folder"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:379
+msgid ""
+"Why: a server config file in uploads that changes how files are executed"
+msgstr ""
+
+#: includes/class-p2s-monitor.php:381
+msgid ""
+"Inspect before deleting; the file is evidence of how the site was entered."
+msgstr ""
+
+#: includes/class-p2s-monitor.php:383
+msgid "Suspicious file in uploads"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:40
+msgid "PHP version"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:41
+msgid "session.upload_progress (CVE-2026-115560 mitigation)"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:42
+msgid "WordPress core integrity"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:43
+msgid "Plugin integrity (wordpress.org plugins)"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:44
+msgid "Executable files in uploads"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:45
+msgid "Recently changed files and auto-prepend hooks"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:46
+msgid "Must-use plugins"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:47
+msgid "Backdoor code patterns in wp-content"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:48
+msgid "Users"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:49
+msgid "Database"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:50
+msgid "Scheduled events"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:51
+msgid "Web server logs"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:72
+msgid "This check could not run"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:80
+msgid "Scan stopped early (time limit)"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:81
+msgid ""
+"The check ran out of its time budget on a large site, so part of the file "
+"tree was not examined. Run it again, or raise max_execution_time."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:259
+msgid "PHP version could not be parsed"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:271
+msgid "PHP is at or above the fixed release"
+msgstr ""
+
+#. translators: 1: running PHP version, 2: fixed version
+#: includes/class-p2s-scanner.php:273
+#, php-format
+msgid "Running PHP %1$s; the fixed release for this branch is %2$s."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:278
+msgid "PHP is below the fixed release"
+msgstr ""
+
+#. translators: 1: running PHP version, 2: fixed version
+#: includes/class-p2s-scanner.php:280
+#, php-format
+msgid "Running PHP %1$s; upgrade to %2$s or newer."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:286
+msgid "PHP is newer than the fixed branches"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:293
+msgid "PHP is on an end-of-life branch"
+msgstr ""
+
+#. translators: %s: running PHP version
+#: includes/class-p2s-scanner.php:295
+#, php-format
+msgid ""
+"Running PHP %s. php.net shipped no release for this branch, but security-"
+"team backports exist via deb.sury.org, Remi and enterprise distributions. "
+"Check the package changelog for CVE-2026-109618 and CVE-2026-109619, and "
+"plan the move to 8.2 or newer. If your distribution has backported the fix, "
+"acknowledge this finding."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:300
+msgid "PHP is on an end-of-life branch with no fix"
+msgstr ""
+
+#. translators: %s: running PHP version
+#: includes/class-p2s-scanner.php:302
+#, php-format
+msgid "Running PHP %s. Move to 8.2 or newer."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:314
+msgid "About this result"
+msgstr ""
+
+#. translators: %s: PHP SAPI name
+#: includes/class-p2s-scanner.php:317
+#, php-format
+msgid ""
+"This is the PHP that actually serves the website (SAPI: %s), not the command-"
+"line PHP. Distribution packages (Ubuntu, Debian, RHEL) may backport the fix "
+"without changing the version number; check the package changelog for the CVE "
+"IDs. CVE-2026-115560 is not covered by the October releases."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:339
+msgid "The session extension is not loaded"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:339
+msgid ""
+"The setting does not exist on this PHP build, so there is nothing to "
+"mitigate."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:342
+msgid "session.upload_progress.enabled is Off"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:342
+msgid ""
+"The CVE-2026-115560 mitigation is in place for the PHP serving this site."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:349
+msgid "session.upload_progress.enabled is still On"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:350
+msgid ""
+"php.net asks for session.upload_progress.enabled=0 in php.ini or the PHP-FPM "
+"pool, followed by a restart, until the CVE-2026-115560 fix ships in the next "
+"regular release. ini_set() and .user.ini do not work for this setting. The "
+"bug only bites when an application switches session.serialize_handler at "
+"runtime, which WordPress never does, so this is housekeeping rather than a "
+"sign of compromise."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:373
+msgid "Core integrity was not checked"
+msgstr ""
+
+#. translators: 1: WordPress version, 2: locale
+#: includes/class-p2s-scanner.php:376
+#, php-format
+msgid ""
+"Could not get checksums from api.wordpress.org for %1$s (%2$s). Beta "
+"versions and blocked outbound requests cause this."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:429
+msgid "WordPress core files were modified"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:429
+#, php-format
+msgid "%d file(s) differ from the official wordpress.org release."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:433
+msgid "Unknown files inside wp-admin or wp-includes"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:433
+#, php-format
+msgid "%d file(s) do not belong to WordPress. This is often a dropped shell."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:437
+msgid "Core PHP files are missing"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:437
+msgid "Reinstall core from Dashboard, Updates, Re-install."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:441
+msgid "Extra PHP files in the site root"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:441
+msgid ""
+"A custom script at the site root is the usual benign cause; check each one."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:444
+msgid "Core files match wordpress.org checksums"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:444
+msgid "No modified files and no extra files in wp-admin or wp-includes."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:495
+msgid "Plugin files differ from wordpress.org"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:495
+#, php-format
+msgid ""
+"%d file(s) were modified, added or removed compared with the published "
+"release."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:498
+msgid "Some plugins could not be verified"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:498
+msgid ""
+"The checksum request failed (network or wordpress.org unavailable). Try "
+"again later."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:502
+msgid "Not verifiable (premium or custom plugins)"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:502
+msgid "Compare these against a fresh download or your repository."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:505
+msgid "Verified plugins match wordpress.org checksums"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:505
+#, php-format
+msgid "%d plugin(s) verified."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:508
+msgid "No plugins to verify"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:640
+msgid "No uploads directory found"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:643
+msgid "No executable PHP in uploads"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:659
+msgid "PHP files in the uploads folder"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:659
+#, php-format
+msgid "%d file(s). Almost always malicious; inspect before deleting."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:663
+msgid ".htaccess or .user.ini in uploads that changes how files are executed"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:663
+msgid ""
+"WordPress never writes these there; attackers use them to make other file "
+"types run as PHP."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:765
+msgid "auto_prepend_file / auto_append_file is set"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:766
+msgid "This looks like the Wordfence firewall loader, which is legitimate."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:766
+msgid ""
+"Legitimate for Wordfence (wordfence-waf.php); anything else is a red flag "
+"because the file runs before every request."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:770
+msgid "No auto_prepend / auto_append directives"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:774
+msgid "Files named *.l10n.php that are not translation files"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:774
+msgid ""
+"WordPress writes these as a single \"return [...]\" statement; these do not "
+"look like that. Inspect them."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:803
+msgid "Many PHP/config files changed in the window"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:803
+#, php-format
+msgid ""
+"%1$d file(s) changed since %2$s. Expected if you updated plugins or core "
+"since then; anything else needs a look. By directory: count, newest change, "
+"directory."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:809
+msgid "PHP/config files changed in the window"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:809
+#, php-format
+msgid ""
+"%1$d file(s) changed since %2$s. Expected if you updated plugins or core "
+"since then; anything else needs a look."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:811
+msgid "No PHP/config files modified in the window"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:811
+#, php-format
+msgid ""
+"Since %s. Attackers can fake timestamps, so the checksum checks are the "
+"stronger test."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:814
+msgid "Translation files changed"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:814
+#, php-format
+msgid ""
+"%d *.l10n.php file(s) under wp-content/languages changed. WordPress rewrites "
+"these when language packs update, so they are not listed. They are still "
+"covered by the code-pattern scan."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:832
+msgid "Must-use plugins are present"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:832
+msgid ""
+"They run on every request and do not appear in the normal plugin list. "
+"Confirm each one is yours. Changes to this folder are watched in real time."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:834
+msgid "No must-use plugins"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:866
+msgid "Files with classic web-shell patterns"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:866
+msgid ""
+"Some obfuscated premium plugins trip this too, so confirm by reading the "
+"file."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:868
+msgid "No classic web-shell patterns found"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:871
+msgid "Large files skipped"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:871
+#, php-format
+msgid "%d PHP file(s) over 1.5 MB were not scanned."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:897
+msgid "Administrators"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:897
+msgid "Confirm every one is expected."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:909
+msgid "Administrator accounts that did not exist at the baseline"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:909
+msgid ""
+"If you created these yourself, use \"Accept current state\" on the Status "
+"tab."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:926
+msgid "Accounts registered in the window"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:926 includes/class-p2s-scanner.php:928
+#, php-format
+msgid "Since %s."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:928
+msgid "No accounts registered in the window"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:942
+msgid "Site URLs"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:942
+msgid "Both should be your own domain."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:944
+msgid "siteurl and home are on different hosts"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:944
+msgid ""
+"Legitimate in some setups (WordPress in its own folder or subdomain), but "
+"also a common redirect hijack."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:964
+msgid "The options scan failed"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:964
+msgid "Large sites can hit MySQL regex limits, so options were not checked."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:970
+msgid "Options containing script tags or obfuscation functions"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:970
+msgid "Analytics and header-script plugins are legitimate hits."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:972
+msgid "No suspicious content in options"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:976
+msgid "The posts scan failed"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:976
+msgid ""
+"Large sites can hit MySQL regex limits, so post content was not checked."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:982
+msgid "Posts or pages with external scripts or obfuscation"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:982
+msgid "Embeds can be legitimate."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:984
+msgid "No suspicious scripts in post content"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1012
+msgid "Scheduled events with no code attached"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1012
+msgid ""
+"Usually left behind by a removed plugin; sometimes a persistence trick. "
+"Hooks that only register on certain pages can show up here too."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1014
+msgid "Every scheduled event has code attached"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1014
+#, php-format
+msgid "%d event(s) examined."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1104
+msgid "No readable server logs found"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1104
+#, php-format
+msgid ""
+"Many hosts keep logs out of reach of PHP. Add log paths on the Settings tab "
+"(one path or glob per line), or ask your host for the access logs from %s "
+"onward before they rotate away."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1179
+#, php-format
+msgid ""
+"Read the last 8 MB of %d access log(s). If your host writes one log per "
+"layer (nginx in front of Apache), requests may be counted twice; the ratios "
+"still hold."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1182
+msgid "The access logs do not reach the window"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1182
+#, php-format
+msgid ""
+"No requests on or after %s. The window has probably rotated away; ask the "
+"host for archived logs."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1184
+msgid "No 5xx responses in the window"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1184
+#, php-format
+msgid ""
+"%1$d requests since %2$s. Failed memory-corruption attempts usually crash "
+"the PHP worker and show up as 500/502 bursts, so a flat zero is a strong "
+"reassuring signal. "
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1186
+msgid "5xx responses above the pre-window baseline"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1186
+#, php-format
+msgid ""
+"%1$d 5xx since %2$s (worst day %3$d vs %4$d before). Bursts of 500/502 on "
+"random URLs are what failed exploitation attempts look like; a steady "
+"trickle on one URL is usually a broken plugin. "
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1186 includes/class-p2s-scanner.php:1188
+msgid "Top URLs returning 5xx in the window (count, path):"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1188
+msgid "5xx responses in line with the baseline"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1188
+#, php-format
+msgid "%1$d 5xx since %2$s (worst day %3$d vs %4$d before). "
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1193
+msgid "PHP worker crashes in the error logs"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1193
+#, php-format
+msgid ""
+"%d crash line(s) (segfault or bus error). A crash is what a failed PHP2Shell "
+"attempt leaves behind, but buggy extensions crash too; compare the dates "
+"with the window."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1195
+msgid "No PHP worker crashes in the error logs"
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1195
+#, php-format
+msgid "%d error log file(s) read."
+msgstr ""
+
+#: includes/class-p2s-scanner.php:1199
+msgid "Logs were readable but contained nothing to evaluate"
+msgstr ""

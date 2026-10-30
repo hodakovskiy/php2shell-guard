@@ -1,0 +1,1408 @@
+# Ukrainian translation for PHP2Shell Guard.
+# Copyright (C) 2026 PHP2Shell Guard
+# This file is distributed under the same license as the PHP2Shell Guard package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PHP2Shell Guard 1.0.0\n"
+"Report-Msgid-Bugs-To: hodakovskiy@gmail.com\n"
+"POT-Creation-Date: 2026-10-30 07:31+0000\n"
+"PO-Revision-Date: 2026-10-30 12:00+0000\n"
+"Last-Translator: Sergey <hodakovskiy@gmail.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4\n"
+
+#: php2shell-guard.php:65
+msgid "Every 15 minutes"
+msgstr "Кожні 15 хвилин"
+
+#: includes/class-p2s-admin.php:30 includes/class-p2s-admin.php:31
+#: includes/class-p2s-admin.php:259
+msgid "PHP2Shell Guard"
+msgstr "PHP2Shell Guard"
+
+#: includes/class-p2s-admin.php:69
+msgid "Scan complete. Reloading..."
+msgstr "Сканування завершено. Перезавантаження..."
+
+#: includes/class-p2s-admin.php:70
+msgid "Request failed"
+msgstr "Запит не вдався"
+
+#: includes/class-p2s-admin.php:77
+msgid "Open"
+msgstr "Відкрити"
+
+#: includes/class-p2s-admin.php:86 includes/class-p2s-admin.php:88
+msgid "Get help"
+msgstr "Отримати допомогу"
+
+#: includes/class-p2s-admin.php:107
+msgid "PHP2Shell Guard:"
+msgstr "PHP2Shell Guard:"
+
+#. translators: %d: number of critical items
+#: includes/class-p2s-admin.php:111
+#, php-format
+msgid "%d critical item needs your attention."
+msgid_plural "%d critical items need your attention."
+msgstr[0] "%d критичний елемент потребує вашої уваги."
+msgstr[1] "%d критичні елементи потребують вашої уваги."
+msgstr[2] "%d критичних елементів потребують вашої уваги."
+
+#: includes/class-p2s-admin.php:116
+msgid "Review now"
+msgstr "Переглянути зараз"
+
+#: includes/class-p2s-admin.php:151
+msgid "You do not have permission to do that."
+msgstr "У вас немає дозволу на цю дію."
+
+#: includes/class-p2s-admin.php:207
+msgid "Test alert"
+msgstr "Тестове сповіщення"
+
+#: includes/class-p2s-admin.php:208
+msgid ""
+"This is a test from PHP2Shell Guard. If you can read this, alerts reach you."
+msgstr ""
+"Це тест від PHP2Shell Guard. Якщо ви це читаєте, сповіщення до вас доходять."
+
+#: includes/class-p2s-admin.php:226
+msgid "Critical"
+msgstr "Критично"
+
+#: includes/class-p2s-admin.php:227
+msgid "Review"
+msgstr "Огляд"
+
+#: includes/class-p2s-admin.php:228
+msgid "OK"
+msgstr "OK"
+
+#: includes/class-p2s-admin.php:229
+msgid "Info"
+msgstr "Інфо"
+
+#: includes/class-p2s-admin.php:251
+msgid "Status"
+msgstr "Статус"
+
+#: includes/class-p2s-admin.php:252 includes/class-p2s-admin.php:402
+msgid "Live events"
+msgstr "Події в реальному часі"
+
+#: includes/class-p2s-admin.php:253
+msgid "Alerts & settings"
+msgstr "Сповіщення та налаштування"
+
+#: includes/class-p2s-admin.php:286
+msgid "Acknowledged."
+msgstr "Підтверджено."
+
+#: includes/class-p2s-admin.php:287
+msgid "Current state accepted as the new baseline."
+msgstr "Поточний стан прийнято як нову базову лінію."
+
+#: includes/class-p2s-admin.php:288
+msgid "Acknowledgements cleared."
+msgstr "Підтвердження очищено."
+
+#: includes/class-p2s-admin.php:289
+msgid ""
+"Test alert sent through every configured channel. Check that it arrived."
+msgstr ""
+"Тестове сповіщення надіслано через усі налаштовані канали. Перевірте, чи "
+"воно надійшло."
+
+#: includes/class-p2s-admin.php:290
+msgid "At least one channel failed. See the alert log below."
+msgstr "Принаймні один канал не працює. Дивіться журнал сповіщень нижче."
+
+#: includes/class-p2s-admin.php:296
+msgid "Settings saved."
+msgstr "Налаштування збережено."
+
+#. translators: %s: time span, e.g. "3 hours"
+#: includes/class-p2s-admin.php:307 includes/class-p2s-admin.php:352
+#, php-format
+msgid "%s ago"
+msgstr "%s тому"
+
+#: includes/class-p2s-admin.php:307 includes/class-p2s-alerts.php:289
+msgid "never"
+msgstr "ніколи"
+
+#: includes/class-p2s-admin.php:311
+msgid "critical"
+msgstr "критичних"
+
+#: includes/class-p2s-admin.php:312
+msgid "to review"
+msgstr "на огляд"
+
+#: includes/class-p2s-admin.php:313
+msgid "last full scan"
+msgstr "останнє повне сканування"
+
+#: includes/class-p2s-admin.php:314
+msgid "until next scan"
+msgstr "до наступного сканування"
+
+#: includes/class-p2s-admin.php:318
+msgid "Run full scan"
+msgstr "Запустити повне сканування"
+
+#: includes/class-p2s-admin.php:319
+msgid "Accept current state"
+msgstr "Прийняти поточний стан"
+
+#: includes/class-p2s-admin.php:321
+msgid "Clear acknowledgements"
+msgstr "Очистити підтвердження"
+
+#. translators: %s: time since baseline
+#: includes/class-p2s-admin.php:330
+#, php-format
+msgid ""
+"Real-time watch is active. Baseline set %s ago: changes to wp-config.php, ."
+"htaccess, .user.ini, must-use plugins and the list of administrators raise "
+"an alert. Use \"Accept current state\" after legitimate changes."
+msgstr ""
+"Спостереження в реальному часі активне. Базову лінію встановлено %s тому: "
+"зміни в wp-config.php, .htaccess, .user.ini, обов'язкових плагінах (mu-plugins) "
+"і списку адміністраторів викликають сповіщення. Використовуйте «Прийняти "
+"поточний стан» після легітимних змін."
+
+#: includes/class-p2s-admin.php:334
+msgid ""
+"No baseline yet. It is taken automatically after the first scan that finds "
+"nothing critical. Until then only uploads and live events are watched. Fix "
+"any critical findings first, then run a scan or click \"Accept current "
+"state\"."
+msgstr ""
+"Базової лінії ще немає. Вона встановлюється автоматично після першого "
+"сканування, яке не виявило нічого критичного. До того часу спостерігаються "
+"лише uploads і події в реальному часі. Спочатку виправте всі критичні "
+"знахідки, потім запустіть сканування або натисніть «Прийняти поточний стан»."
+
+#: includes/class-p2s-admin.php:343
+msgid "No scan has run yet. Click \"Run full scan\"."
+msgstr "Сканування ще не запускалося. Натисніть «Запустити повне сканування»."
+
+#: includes/class-p2s-admin.php:361
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d елемент"
+msgstr[1] "%d елементи"
+msgstr[2] "%d елементів"
+
+#: includes/class-p2s-admin.php:363
+#, php-format
+msgid "%d more not shown"
+msgstr "ще %d не показано"
+
+#: includes/class-p2s-admin.php:369
+msgid "Acknowledged"
+msgstr "Підтверджено"
+
+#: includes/class-p2s-admin.php:371 includes/class-p2s-admin.php:414
+msgid "Acknowledge"
+msgstr "Підтвердити"
+
+#: includes/class-p2s-admin.php:387
+msgid "Need help cleaning up?"
+msgstr "Потрібна допомога з очищенням?"
+
+#: includes/class-p2s-admin.php:403
+msgid ""
+"Things the guard saw as they happened: new administrators, changed site URL "
+"or admin email, PHP uploads, edits to critical files."
+msgstr ""
+"Події, які захист побачив у момент їх виникнення: нові адміністратори, зміна "
+"URL сайту або email адміністратора, завантаження PHP, редагування критичних "
+"файлів."
+
+#: includes/class-p2s-admin.php:405
+msgid "Nothing recorded yet."
+msgstr "Поки нічого не записано."
+
+#: includes/class-p2s-admin.php:408
+msgid "Acknowledge all"
+msgstr "Підтвердити всі"
+
+#: includes/class-p2s-admin.php:410 includes/class-p2s-admin.php:427
+msgid "Time (UTC)"
+msgstr "Час (UTC)"
+
+#: includes/class-p2s-admin.php:410
+msgid "Level"
+msgstr "Рівень"
+
+#: includes/class-p2s-admin.php:410
+msgid "Event"
+msgstr "Подія"
+
+#: includes/class-p2s-admin.php:421
+msgid "Alert delivery log"
+msgstr "Журнал доставки сповіщень"
+
+#: includes/class-p2s-admin.php:424
+msgid "No alerts have been sent yet."
+msgstr "Сповіщень ще не надіслано."
+
+#: includes/class-p2s-admin.php:427
+msgid "Subject"
+msgstr "Тема"
+
+#: includes/class-p2s-admin.php:427
+msgid "Delivery"
+msgstr "Доставка"
+
+#: includes/class-p2s-admin.php:433
+msgid "no channel configured"
+msgstr "жоден канал не налаштовано"
+
+#: includes/class-p2s-admin.php:445
+msgid "Email alerts"
+msgstr "Email-сповіщення"
+
+#: includes/class-p2s-admin.php:446
+msgid "Send alerts by email"
+msgstr "Надсилати сповіщення електронною поштою"
+
+#: includes/class-p2s-admin.php:448
+msgid ""
+"Comma or line separated. Empty means the site administrator email. Many "
+"hosts send WordPress mail unreliably, so also set up a webhook or Telegram."
+msgstr ""
+"Через кому або з нового рядка. Порожньо — використовується email "
+"адміністратора сайту. Багато хостингів ненадійно надсилають пошту WordPress, "
+"тому додатково налаштуйте webhook або Telegram."
+
+#: includes/class-p2s-admin.php:450
+msgid "Webhook"
+msgstr "Webhook"
+
+#: includes/class-p2s-admin.php:453
+msgid "Generic JSON (structured)"
+msgstr "Загальний JSON (структурований)"
+
+#: includes/class-p2s-admin.php:458
+msgid "Telegram"
+msgstr "Telegram"
+
+#: includes/class-p2s-admin.php:461
+msgid ""
+"Create a bot with @BotFather, send it a message, and use your chat ID. The "
+"token is stored in the database like any plugin setting."
+msgstr ""
+"Створіть бота через @BotFather, надішліть йому повідомлення та використайте "
+"свій chat ID. Токен зберігається в базі даних, як і будь-яке налаштування "
+"плагіна."
+
+#: includes/class-p2s-admin.php:463
+msgid "Also alert on \"review\" items"
+msgstr "Також сповіщати про елементи «огляд»"
+
+#: includes/class-p2s-admin.php:464
+msgid ""
+"Notify about items that need a human look, not only critical ones (noisier)"
+msgstr ""
+"Сповіщати про елементи, які потребують людської перевірки, а не лише про "
+"критичні (більше шуму)"
+
+#: includes/class-p2s-admin.php:467
+msgid "Scan frequency"
+msgstr "Частота сканування"
+
+#: includes/class-p2s-admin.php:468
+msgid "Hourly"
+msgstr "Щогодини"
+
+#: includes/class-p2s-admin.php:468
+msgid "Twice daily"
+msgstr "Двічі на день"
+
+#: includes/class-p2s-admin.php:468
+msgid "Daily"
+msgstr "Щодня"
+
+#: includes/class-p2s-admin.php:471
+msgid ""
+"The watcher for critical files and administrators runs every 15 minutes "
+"regardless. These timers rely on WP-Cron; on low-traffic sites trigger wp-"
+"cron.php from a real cron job."
+msgstr ""
+"Спостерігач за критичними файлами та адміністраторами працює кожні 15 хвилин "
+"незалежно від цього. Ці таймери покладаються на WP-Cron; на сайтах з низьким "
+"трафіком запускайте wp-cron.php зі справжнього cron-завдання."
+
+#: includes/class-p2s-admin.php:473
+msgid "Inspect changes since"
+msgstr "Перевіряти зміни з"
+
+#: includes/class-p2s-admin.php:474
+msgid "Start of the window to inspect (first known exploitation)."
+msgstr "Початок вікна перевірки (перше відоме використання вразливості)."
+
+#: includes/class-p2s-admin.php:477
+msgid "Log files"
+msgstr "Файли журналів"
+
+#: includes/class-p2s-admin.php:479
+msgid ""
+"Optional. One path or glob per line. Leave empty to look in the usual "
+"places. PHP often cannot read server logs; ask your host if nothing is found."
+msgstr ""
+"Необов'язково. Один шлях або glob на рядок. Залиште порожнім, щоб шукати у "
+"звичайних місцях. PHP часто не може читати журнали сервера; зверніться до "
+"хостингу, якщо нічого не знайдено."
+
+#: includes/class-p2s-admin.php:481
+msgid "Daily heartbeat"
+msgstr "Щоденний сигнал"
+
+#: includes/class-p2s-admin.php:482
+msgid "Send a daily \"I am alive\" message"
+msgstr "Надсилати щоденне повідомлення «Я живий»"
+
+#: includes/class-p2s-admin.php:483
+msgid ""
+"If the message stops, the guard may have been switched off. This is how you "
+"notice a silent failure."
+msgstr ""
+"Якщо повідомлення перестануть надходити, можливо, захист вимкнено. Так ви "
+"помітите тихий збій."
+
+#: includes/class-p2s-admin.php:489
+msgid "Test"
+msgstr "Тест"
+
+#: includes/class-p2s-admin.php:490
+msgid "Send a test alert"
+msgstr "Надіслати тестове сповіщення"
+
+#: includes/class-p2s-admin.php:491
+msgid "Save your settings first, then send a test."
+msgstr "Спочатку збережіть налаштування, потім надішліть тест."
+
+#: includes/class-p2s-admin.php:496
+msgid ""
+"PHP2Shell Guard only reads and reports. It never modifies or deletes files. "
+"It cannot see inside your server beyond what PHP can read, and an attacker "
+"with full code execution could tamper with any plugin, so treat a clean "
+"result as \"no signs found\", not as proof."
+msgstr ""
+"PHP2Shell Guard лише читає та повідомляє. Він ніколи не змінює та не видаляє "
+"файли. Він не бачить усередині вашого сервера більше, ніж може прочитати PHP, "
+"а зловмисник із повним виконанням коду може підробити будь-який плагін, тому "
+"сприймайте чистий результат як «слідів не знайдено», а не як доказ."
+
+#. translators: %s: site address
+#: includes/class-p2s-alerts.php:36
+#, php-format
+msgid "Site: %s"
+msgstr "Сайт: %s"
+
+#. translators: %s: date and time in UTC
+#: includes/class-p2s-alerts.php:38
+#, php-format
+msgid "Time: %s UTC"
+msgstr "Час: %s UTC"
+
+#. translators: %s: admin page URL
+#: includes/class-p2s-alerts.php:41
+#, php-format
+msgid "Review and acknowledge: %s"
+msgstr "Переглянути та підтвердити: %s"
+
+#: includes/class-p2s-alerts.php:54
+msgid "wp_mail() returned false"
+msgstr "wp_mail() повернула false"
+
+#: includes/class-p2s-alerts.php:56
+msgid "no valid recipient"
+msgstr "немає дійсного отримувача"
+
+#. translators: %s: contact person or company
+#: includes/class-p2s-alerts.php:122
+#, php-format
+msgid "Need help cleaning up? Contact %s"
+msgstr "Потрібна допомога з очищенням? Зверніться до %s"
+
+#: includes/class-p2s-alerts.php:167
+msgid "Alert flood: further alerts suppressed for this hour"
+msgstr "Лавина сповіщень: подальші сповіщення пригнічено до кінця години"
+
+#. translators: %d: maximum alerts per hour
+#: includes/class-p2s-alerts.php:169
+#, php-format
+msgid ""
+"More than %d alerts were raised within an hour. The rest are still recorded "
+"on the Live events tab."
+msgstr ""
+"Протягом години виникло понад %d сповіщень. Решта все одно записана на "
+"вкладці «Події в реальному часі»."
+
+#: includes/class-p2s-alerts.php:257
+msgid "CRITICAL"
+msgstr "КРИТИЧНО"
+
+#: includes/class-p2s-alerts.php:257
+msgid "REVIEW"
+msgstr "ОГЛЯД"
+
+#: includes/class-p2s-alerts.php:265
+msgid "... more on the admin page"
+msgstr "... більше на сторінці адміністратора"
+
+#. translators: 1: number of findings, 2: site host name
+#: includes/class-p2s-alerts.php:272
+#, php-format
+msgid "%1$d new critical finding on %2$s"
+msgid_plural "%1$d new critical findings on %2$s"
+msgstr[0] "%1$d нова критична знахідка на %2$s"
+msgstr[1] "%1$d нові критичні знахідки на %2$s"
+msgstr[2] "%1$d нових критичних знахідок на %2$s"
+
+#. translators: 1: number of items, 2: site host name
+#: includes/class-p2s-alerts.php:274
+#, php-format
+msgid "%1$d new item to review on %2$s"
+msgid_plural "%1$d new items to review on %2$s"
+msgstr[0] "%1$d новий елемент на огляд на %2$s"
+msgstr[1] "%1$d нові елементи на огляд на %2$s"
+msgstr[2] "%1$d нових елементів на огляд на %2$s"
+
+#: includes/class-p2s-alerts.php:291
+msgid "Heartbeat: PHP2Shell Guard is running"
+msgstr "Сигнал: PHP2Shell Guard працює"
+
+#. translators: %s: date and time, or "never"
+#: includes/class-p2s-alerts.php:294
+#, php-format
+msgid "Last full scan: %s"
+msgstr "Останнє повне сканування: %s"
+
+#. translators: %d: number
+#: includes/class-p2s-alerts.php:296
+#, php-format
+msgid "Open critical findings: %d"
+msgstr "Відкритих критичних знахідок: %d"
+
+#. translators: %d: number
+#: includes/class-p2s-alerts.php:298
+#, php-format
+msgid "Unacknowledged critical events: %d"
+msgstr "Непідтверджених критичних подій: %d"
+
+#: includes/class-p2s-alerts.php:300
+msgid ""
+"If you stop receiving this message, the guard may have been disabled. Check "
+"the site."
+msgstr ""
+"Якщо ви перестали отримувати це повідомлення, можливо, захист вимкнено. "
+"Перевірте сайт."
+
+#. translators: 1: user login, 2: user ID
+#: includes/class-p2s-monitor.php:44
+#, php-format
+msgid "Acting user: %1$s (ID %2$d)"
+msgstr "Діючий користувач: %1$s (ID %2$d)"
+
+#: includes/class-p2s-monitor.php:46
+msgid "Context: WP-CLI"
+msgstr "Контекст: WP-CLI"
+
+#: includes/class-p2s-monitor.php:48
+msgid "Context: WP-Cron"
+msgstr "Контекст: WP-Cron"
+
+#: includes/class-p2s-monitor.php:50
+msgid ""
+"Acting user: nobody is logged in. This change came from an unauthenticated "
+"request, which is highly suspicious."
+msgstr ""
+"Діючий користувач: ніхто не авторизований. Ця зміна надійшла з "
+"неавтентифікованого запиту, що дуже підозріло."
+
+#. translators: %s: IP address
+#: includes/class-p2s-monitor.php:55
+#, php-format
+msgid "IP address: %s"
+msgstr "IP-адреса: %s"
+
+#. translators: %s: requested URL path
+#: includes/class-p2s-monitor.php:59
+#, php-format
+msgid "Request: %s"
+msgstr "Запит: %s"
+
+#. translators: %s: how the role was obtained, e.g. "account created"
+#: includes/class-p2s-monitor.php:114
+#, php-format
+msgid "A user now has the administrator role (%s)."
+msgstr "Користувач тепер має роль адміністратора (%s)."
+
+#. translators: %s: user login, e-mail and ID
+#: includes/class-p2s-monitor.php:116
+#, php-format
+msgid "New administrator: %s"
+msgstr "Новий адміністратор: %s"
+
+#: includes/class-p2s-monitor.php:120
+msgid ""
+"If you did not do this, treat the site as compromised: reset all passwords "
+"and secret keys, and remove the account."
+msgstr ""
+"Якщо це не ви, вважайте сайт скомпрометованим: скиньте всі паролі та секретні "
+"ключі, і видаліть обліковий запис."
+
+#: includes/class-p2s-monitor.php:121
+msgid "New administrator account"
+msgstr "Новий обліковий запис адміністратора"
+
+#: includes/class-p2s-monitor.php:127
+msgid "account created"
+msgstr "обліковий запис створено"
+
+#: includes/class-p2s-monitor.php:133
+msgid "role changed"
+msgstr "роль змінено"
+
+#: includes/class-p2s-monitor.php:139
+msgid "role added"
+msgstr "роль додано"
+
+#: includes/class-p2s-monitor.php:148 includes/class-p2s-monitor.php:149
+msgid "(complex value)"
+msgstr "(складне значення)"
+
+#: includes/class-p2s-monitor.php:156
+msgid "Open registration was switched on"
+msgstr "Відкриту реєстрацію ввімкнено"
+
+#. translators: %s: role name
+#: includes/class-p2s-monitor.php:163
+#, php-format
+msgid "Default role for new users was raised to %s"
+msgstr "Роль за замовчуванням для нових користувачів підвищено до %s"
+
+#. translators: %s: option name such as siteurl
+#: includes/class-p2s-monitor.php:167
+#, php-format
+msgid "Setting changed: %s"
+msgstr "Налаштування змінено: %s"
+
+#. translators: %s: option name
+#: includes/class-p2s-monitor.php:174
+#, php-format
+msgid "Option: %s"
+msgstr "Опція: %s"
+
+#. translators: %s: previous value
+#: includes/class-p2s-monitor.php:176
+#, php-format
+msgid "Old value: %s"
+msgstr "Старе значення: %s"
+
+#. translators: %s: new value
+#: includes/class-p2s-monitor.php:178
+#, php-format
+msgid "New value: %s"
+msgstr "Нове значення: %s"
+
+#: includes/class-p2s-monitor.php:182
+msgid ""
+"Changing the site URL or admin email is a common way to hijack a site or "
+"take over password resets."
+msgstr ""
+"Зміна URL сайту або email адміністратора — частий спосіб перехопити сайт або "
+"взяти під контроль скидання паролів."
+
+#. translators: %s: file name
+#: includes/class-p2s-monitor.php:190
+#, php-format
+msgid "File name: %s"
+msgstr "Ім'я файлу: %s"
+
+#: includes/class-p2s-monitor.php:193
+msgid ""
+"WordPress normally refuses these; an attempt to upload a PHP file is a "
+"typical web-shell drop."
+msgstr ""
+"WordPress зазвичай такі файли відхиляє; спроба завантажити PHP-файл — типова "
+"спроба залишити вебшелл."
+
+#: includes/class-p2s-monitor.php:194
+msgid "PHP file upload attempt"
+msgstr "Спроба завантаження PHP-файлу"
+
+#: includes/class-p2s-monitor.php:221
+msgid "PHP2Shell Guard was deactivated."
+msgstr "PHP2Shell Guard було деактивовано."
+
+#: includes/class-p2s-monitor.php:224
+msgid "If you did not do this, an attacker may be switching off the guard."
+msgstr "Якщо це не ви, можливо, зловмисник вимикає захист."
+
+#: includes/class-p2s-monitor.php:225
+msgid "PHP2Shell Guard was deactivated"
+msgstr "PHP2Shell Guard було деактивовано"
+
+#. translators: %s: file path
+#: includes/class-p2s-monitor.php:334
+#, php-format
+msgid "%s appeared."
+msgstr "%s з'явився."
+
+#. translators: %s: file path
+#: includes/class-p2s-monitor.php:336
+#, php-format
+msgid "%s was modified."
+msgstr "%s було змінено."
+
+#. translators: %s: file path
+#: includes/class-p2s-monitor.php:338
+#, php-format
+msgid "%s was removed."
+msgstr "%s було видалено."
+
+#. translators: %s: date and time in UTC
+#: includes/class-p2s-monitor.php:343
+#, php-format
+msgid "File time: %s UTC"
+msgstr "Час файлу: %s UTC"
+
+#: includes/class-p2s-monitor.php:346
+msgid ""
+"If you made this change yourself, open the plugin page and click \"Accept "
+"current state\"."
+msgstr ""
+"Якщо ви зробили цю зміну самі, відкрийте сторінку плагіна й натисніть "
+"«Прийняти поточний стан»."
+
+#. translators: %s: file path
+#: includes/class-p2s-monitor.php:348
+#, php-format
+msgid "Critical file changed: %s"
+msgstr "Критичний файл змінено: %s"
+
+#: includes/class-p2s-monitor.php:355
+msgid "found by the watcher; it may have bypassed WordPress"
+msgstr "знайдено спостерігачем; можливо, обійшло WordPress"
+
+#. translators: 1: file size, 2: date and time in UTC
+#: includes/class-p2s-monitor.php:376
+#, php-format
+msgid "Size: %1$s, modified %2$s UTC"
+msgstr "Розмір: %1$s, змінено %2$s UTC"
+
+#: includes/class-p2s-monitor.php:378
+msgid "Why: an executable PHP file in the uploads folder"
+msgstr "Причина: виконуваний PHP-файл у папці uploads"
+
+#: includes/class-p2s-monitor.php:379
+msgid ""
+"Why: a server config file in uploads that changes how files are executed"
+msgstr ""
+"Причина: серверний конфігураційний файл у uploads, що змінює спосіб "
+"виконання файлів"
+
+#: includes/class-p2s-monitor.php:381
+msgid ""
+"Inspect before deleting; the file is evidence of how the site was entered."
+msgstr ""
+"Перевірте перед видаленням; файл є доказом того, як сайт було скомпрометовано."
+
+#: includes/class-p2s-monitor.php:383
+msgid "Suspicious file in uploads"
+msgstr "Підозрілий файл у uploads"
+
+#: includes/class-p2s-scanner.php:40
+msgid "PHP version"
+msgstr "Версія PHP"
+
+#: includes/class-p2s-scanner.php:41
+msgid "session.upload_progress (CVE-2026-115560 mitigation)"
+msgstr "session.upload_progress (мітигація CVE-2026-115560)"
+
+#: includes/class-p2s-scanner.php:42
+msgid "WordPress core integrity"
+msgstr "Цілісність ядра WordPress"
+
+#: includes/class-p2s-scanner.php:43
+msgid "Plugin integrity (wordpress.org plugins)"
+msgstr "Цілісність плагінів (плагіни wordpress.org)"
+
+#: includes/class-p2s-scanner.php:44
+msgid "Executable files in uploads"
+msgstr "Виконувані файли в uploads"
+
+#: includes/class-p2s-scanner.php:45
+msgid "Recently changed files and auto-prepend hooks"
+msgstr "Нещодавно змінені файли та хуки auto-prepend"
+
+#: includes/class-p2s-scanner.php:46
+msgid "Must-use plugins"
+msgstr "Обов'язкові плагіни (mu-plugins)"
+
+#: includes/class-p2s-scanner.php:47
+msgid "Backdoor code patterns in wp-content"
+msgstr "Шаблони бекдор-коду в wp-content"
+
+#: includes/class-p2s-scanner.php:48
+msgid "Users"
+msgstr "Користувачі"
+
+#: includes/class-p2s-scanner.php:49
+msgid "Database"
+msgstr "База даних"
+
+#: includes/class-p2s-scanner.php:50
+msgid "Scheduled events"
+msgstr "Заплановані події"
+
+#: includes/class-p2s-scanner.php:51
+msgid "Web server logs"
+msgstr "Журнали вебсервера"
+
+#: includes/class-p2s-scanner.php:72
+msgid "This check could not run"
+msgstr "Цю перевірку не вдалося виконати"
+
+#: includes/class-p2s-scanner.php:80
+msgid "Scan stopped early (time limit)"
+msgstr "Сканування зупинено достроково (ліміт часу)"
+
+#: includes/class-p2s-scanner.php:81
+msgid ""
+"The check ran out of its time budget on a large site, so part of the file "
+"tree was not examined. Run it again, or raise max_execution_time."
+msgstr ""
+"Перевірка вичерпала свій часовий бюджет на великому сайті, тому частину "
+"дерева файлів не було перевірено. Запустіть ще раз або збільште "
+"max_execution_time."
+
+#: includes/class-p2s-scanner.php:259
+msgid "PHP version could not be parsed"
+msgstr "Не вдалося розібрати версію PHP"
+
+#: includes/class-p2s-scanner.php:271
+msgid "PHP is at or above the fixed release"
+msgstr "PHP відповідає або перевищує виправлений випуск"
+
+#. translators: 1: running PHP version, 2: fixed version
+#: includes/class-p2s-scanner.php:273
+#, php-format
+msgid "Running PHP %1$s; the fixed release for this branch is %2$s."
+msgstr "Запущено PHP %1$s; виправлений випуск для цієї гілки — %2$s."
+
+#: includes/class-p2s-scanner.php:278
+msgid "PHP is below the fixed release"
+msgstr "PHP нижче виправленого випуску"
+
+#. translators: 1: running PHP version, 2: fixed version
+#: includes/class-p2s-scanner.php:280
+#, php-format
+msgid "Running PHP %1$s; upgrade to %2$s or newer."
+msgstr "Запущено PHP %1$s; оновіть до %2$s або новішої."
+
+#: includes/class-p2s-scanner.php:286
+msgid "PHP is newer than the fixed branches"
+msgstr "PHP новіше за виправлені гілки"
+
+#: includes/class-p2s-scanner.php:293
+msgid "PHP is on an end-of-life branch"
+msgstr "PHP на гілці, що завершила життєвий цикл"
+
+#. translators: %s: running PHP version
+#: includes/class-p2s-scanner.php:295
+#, php-format
+msgid ""
+"Running PHP %s. php.net shipped no release for this branch, but security-"
+"team backports exist via deb.sury.org, Remi and enterprise distributions. "
+"Check the package changelog for CVE-2026-109618 and CVE-2026-109619, and "
+"plan the move to 8.2 or newer. If your distribution has backported the fix, "
+"acknowledge this finding."
+msgstr ""
+"Запущено PHP %s. php.net не випустив релізу для цієї гілки, але команда "
+"безпеки робить бекпорти через deb.sury.org, Remi та корпоративні дистрибутиви. "
+"Перевірте журнал змін пакета на CVE-2026-109618 і CVE-2026-109619 і "
+"плануйте перехід на 8.2 або новішу. Якщо ваш дистрибутив уже має бекпорт "
+"виправлення, підтвердьте цю знахідку."
+
+#: includes/class-p2s-scanner.php:300
+msgid "PHP is on an end-of-life branch with no fix"
+msgstr "PHP на гілці, що завершила життєвий цикл, без виправлення"
+
+#. translators: %s: running PHP version
+#: includes/class-p2s-scanner.php:302
+#, php-format
+msgid "Running PHP %s. Move to 8.2 or newer."
+msgstr "Запущено PHP %s. Перейдіть на 8.2 або новішу."
+
+#: includes/class-p2s-scanner.php:314
+msgid "About this result"
+msgstr "Про цей результат"
+
+#. translators: %s: PHP SAPI name
+#: includes/class-p2s-scanner.php:317
+#, php-format
+msgid ""
+"This is the PHP that actually serves the website (SAPI: %s), not the command-"
+"line PHP. Distribution packages (Ubuntu, Debian, RHEL) may backport the fix "
+"without changing the version number; check the package changelog for the CVE "
+"IDs. CVE-2026-115560 is not covered by the October releases."
+msgstr ""
+"Це той PHP, який фактично обслуговує вебсайт (SAPI: %s), а не PHP командного "
+"рядка. Пакети дистрибутивів (Ubuntu, Debian, RHEL) можуть перенести "
+"виправлення, не змінюючи номер версії; перевірте журнал змін пакета на "
+"ідентифікатори CVE. CVE-2026-115560 не входить до жовтневих випусків."
+
+#: includes/class-p2s-scanner.php:339
+msgid "The session extension is not loaded"
+msgstr "Розширення session не завантажено"
+
+#: includes/class-p2s-scanner.php:339
+msgid ""
+"The setting does not exist on this PHP build, so there is nothing to "
+"mitigate."
+msgstr ""
+"У цій збірці PHP налаштування не існує, тому мітигувати нічого."
+
+#: includes/class-p2s-scanner.php:342
+msgid "session.upload_progress.enabled is Off"
+msgstr "session.upload_progress.enabled вимкнено"
+
+#: includes/class-p2s-scanner.php:342
+msgid ""
+"The CVE-2026-115560 mitigation is in place for the PHP serving this site."
+msgstr ""
+"Мітигація CVE-2026-115560 застосована для PHP, що обслуговує цей сайт."
+
+#: includes/class-p2s-scanner.php:349
+msgid "session.upload_progress.enabled is still On"
+msgstr "session.upload_progress.enabled все ще ввімкнено"
+
+#: includes/class-p2s-scanner.php:350
+msgid ""
+"php.net asks for session.upload_progress.enabled=0 in php.ini or the PHP-FPM "
+"pool, followed by a restart, until the CVE-2026-115560 fix ships in the next "
+"regular release. ini_set() and .user.ini do not work for this setting. The "
+"bug only bites when an application switches session.serialize_handler at "
+"runtime, which WordPress never does, so this is housekeeping rather than a "
+"sign of compromise."
+msgstr ""
+"php.net просить встановити session.upload_progress.enabled=0 у php.ini або "
+"пулі PHP-FPM з подальшим перезапуском, поки виправлення CVE-2026-115560 не "
+"вийде у наступному регулярному релізі. ini_set() і .user.ini для цього "
+"налаштування не працюють. Помилка проявляється лише тоді, коли застосунок "
+"перемикає session.serialize_handler під час виконання, чого WordPress "
+"ніколи не робить, тому це гігієна, а не ознака компрометації."
+
+#: includes/class-p2s-scanner.php:373
+msgid "Core integrity was not checked"
+msgstr "Цілісність ядра не перевірено"
+
+#. translators: 1: WordPress version, 2: locale
+#: includes/class-p2s-scanner.php:376
+#, php-format
+msgid ""
+"Could not get checksums from api.wordpress.org for %1$s (%2$s). Beta "
+"versions and blocked outbound requests cause this."
+msgstr ""
+"Не вдалося отримати контрольні суми з api.wordpress.org для %1$s (%2$s). "
+"Причиною можуть бути бета-версії та заблоковані вихідні запити."
+
+#: includes/class-p2s-scanner.php:429
+msgid "WordPress core files were modified"
+msgstr "Файли ядра WordPress змінено"
+
+#: includes/class-p2s-scanner.php:429
+#, php-format
+msgid "%d file(s) differ from the official wordpress.org release."
+msgstr "%d файл(ів) відрізняється від офіційного випуску wordpress.org."
+
+#: includes/class-p2s-scanner.php:433
+msgid "Unknown files inside wp-admin or wp-includes"
+msgstr "Невідомі файли в wp-admin або wp-includes"
+
+#: includes/class-p2s-scanner.php:433
+#, php-format
+msgid "%d file(s) do not belong to WordPress. This is often a dropped shell."
+msgstr ""
+"%d файл(ів) не належить WordPress. Часто це залишений вебшелл."
+
+#: includes/class-p2s-scanner.php:437
+msgid "Core PHP files are missing"
+msgstr "Відсутні PHP-файли ядра"
+
+#: includes/class-p2s-scanner.php:437
+msgid "Reinstall core from Dashboard, Updates, Re-install."
+msgstr "Перевстановіть ядро через Консоль → Оновлення → Перевстановити."
+
+#: includes/class-p2s-scanner.php:441
+msgid "Extra PHP files in the site root"
+msgstr "Зайві PHP-файли в корені сайту"
+
+#: includes/class-p2s-scanner.php:441
+msgid ""
+"A custom script at the site root is the usual benign cause; check each one."
+msgstr ""
+"Зазвичай причина доброякісна — власний скрипт у корені сайту; перевірте "
+"кожен."
+
+#: includes/class-p2s-scanner.php:444
+msgid "Core files match wordpress.org checksums"
+msgstr "Файли ядра відповідають контрольним сумам wordpress.org"
+
+#: includes/class-p2s-scanner.php:444
+msgid "No modified files and no extra files in wp-admin or wp-includes."
+msgstr ""
+"Немає змінених файлів і немає зайвих файлів у wp-admin або wp-includes."
+
+#: includes/class-p2s-scanner.php:495
+msgid "Plugin files differ from wordpress.org"
+msgstr "Файли плагіна відрізняються від wordpress.org"
+
+#: includes/class-p2s-scanner.php:495
+#, php-format
+msgid ""
+"%d file(s) were modified, added or removed compared with the published "
+"release."
+msgstr ""
+"%d файл(ів) було змінено, додано або видалено порівняно з опублікованим "
+"випуском."
+
+#: includes/class-p2s-scanner.php:498
+msgid "Some plugins could not be verified"
+msgstr "Деякі плагіни не вдалося перевірити"
+
+#: includes/class-p2s-scanner.php:498
+msgid ""
+"The checksum request failed (network or wordpress.org unavailable). Try "
+"again later."
+msgstr ""
+"Запит контрольних сум не вдався (мережа або wordpress.org недоступний). "
+"Спробуйте пізніше."
+
+#: includes/class-p2s-scanner.php:502
+msgid "Not verifiable (premium or custom plugins)"
+msgstr "Не піддається перевірці (преміум або кастомні плагіни)"
+
+#: includes/class-p2s-scanner.php:502
+msgid "Compare these against a fresh download or your repository."
+msgstr ""
+"Порівняйте їх зі свіжим завантаженням або вашим репозиторієм."
+
+#: includes/class-p2s-scanner.php:505
+msgid "Verified plugins match wordpress.org checksums"
+msgstr "Перевірені плагіни відповідають контрольним сумам wordpress.org"
+
+#: includes/class-p2s-scanner.php:505
+#, php-format
+msgid "%d plugin(s) verified."
+msgstr "Перевірено %d плагін(ів)."
+
+#: includes/class-p2s-scanner.php:508
+msgid "No plugins to verify"
+msgstr "Немає плагінів для перевірки"
+
+#: includes/class-p2s-scanner.php:640
+msgid "No uploads directory found"
+msgstr "Папку uploads не знайдено"
+
+#: includes/class-p2s-scanner.php:643
+msgid "No executable PHP in uploads"
+msgstr "Немає виконуваного PHP в uploads"
+
+#: includes/class-p2s-scanner.php:659
+msgid "PHP files in the uploads folder"
+msgstr "PHP-файли в папці uploads"
+
+#: includes/class-p2s-scanner.php:659
+#, php-format
+msgid "%d file(s). Almost always malicious; inspect before deleting."
+msgstr ""
+"%d файл(ів). Майже завжди зловмисні; перевірте перед видаленням."
+
+#: includes/class-p2s-scanner.php:663
+msgid ".htaccess or .user.ini in uploads that changes how files are executed"
+msgstr ""
+".htaccess або .user.ini в uploads, що змінює спосіб виконання файлів"
+
+#: includes/class-p2s-scanner.php:663
+msgid ""
+"WordPress never writes these there; attackers use them to make other file "
+"types run as PHP."
+msgstr ""
+"WordPress ніколи їх туди не пише; зловмисники використовують їх, щоб інші "
+"типи файлів виконувалися як PHP."
+
+#: includes/class-p2s-scanner.php:765
+msgid "auto_prepend_file / auto_append_file is set"
+msgstr "auto_prepend_file / auto_append_file встановлено"
+
+#: includes/class-p2s-scanner.php:766
+msgid "This looks like the Wordfence firewall loader, which is legitimate."
+msgstr ""
+"Схоже на завантажувач брандмауера Wordfence, що є легітимним."
+
+#: includes/class-p2s-scanner.php:766
+msgid ""
+"Legitimate for Wordfence (wordfence-waf.php); anything else is a red flag "
+"because the file runs before every request."
+msgstr ""
+"Легітимно для Wordfence (wordfence-waf.php); будь-що інше — червоний прапор, "
+"бо файл запускається перед кожним запитом."
+
+#: includes/class-p2s-scanner.php:770
+msgid "No auto_prepend / auto_append directives"
+msgstr "Немає директив auto_prepend / auto_append"
+
+#: includes/class-p2s-scanner.php:774
+msgid "Files named *.l10n.php that are not translation files"
+msgstr "Файли з назвою *.l10n.php, що не є файлами перекладу"
+
+#: includes/class-p2s-scanner.php:774
+msgid ""
+"WordPress writes these as a single \"return [...]\" statement; these do not "
+"look like that. Inspect them."
+msgstr ""
+"WordPress пише їх як один оператор «return [...]»; ці на нього не схожі. "
+"Перевірте їх."
+
+#: includes/class-p2s-scanner.php:803
+msgid "Many PHP/config files changed in the window"
+msgstr "Багато PHP/конфігураційних файлів змінено у вікні"
+
+#: includes/class-p2s-scanner.php:803
+#, php-format
+msgid ""
+"%1$d file(s) changed since %2$s. Expected if you updated plugins or core "
+"since then; anything else needs a look. By directory: count, newest change, "
+"directory."
+msgstr ""
+"%1$d файл(ів) змінено з %2$s. Це очікувано, якщо ви оновлювали плагіни або "
+"ядро після цієї дати; усе інше потребує огляду. За каталогами: кількість, "
+"найновіша зміна, каталог."
+
+#: includes/class-p2s-scanner.php:809
+msgid "PHP/config files changed in the window"
+msgstr "PHP/конфігураційні файли змінено у вікні"
+
+#: includes/class-p2s-scanner.php:809
+#, php-format
+msgid ""
+"%1$d file(s) changed since %2$s. Expected if you updated plugins or core "
+"since then; anything else needs a look."
+msgstr ""
+"%1$d файл(ів) змінено з %2$s. Це очікувано, якщо ви оновлювали плагіни або "
+"ядро після цієї дати; усе інше потребує огляду."
+
+#: includes/class-p2s-scanner.php:811
+msgid "No PHP/config files modified in the window"
+msgstr "Жодних PHP/конфігураційних файлів не змінено у вікні"
+
+#: includes/class-p2s-scanner.php:811
+#, php-format
+msgid ""
+"Since %s. Attackers can fake timestamps, so the checksum checks are the "
+"stronger test."
+msgstr ""
+"З %s. Зловмисники можуть підробляти часові мітки, тому перевірка контрольних "
+"сум — надійніший тест."
+
+#: includes/class-p2s-scanner.php:814
+msgid "Translation files changed"
+msgstr "Файли перекладу змінено"
+
+#: includes/class-p2s-scanner.php:814
+#, php-format
+msgid ""
+"%d *.l10n.php file(s) under wp-content/languages changed. WordPress rewrites "
+"these when language packs update, so they are not listed. They are still "
+"covered by the code-pattern scan."
+msgstr ""
+"%d файл(ів) *.l10n.php у wp-content/languages змінено. WordPress переписує їх "
+"під час оновлення мовних пакетів, тому вони не перелічені. Вони все одно "
+"покриті скануванням шаблонів коду."
+
+#: includes/class-p2s-scanner.php:832
+msgid "Must-use plugins are present"
+msgstr "Присутні обов'язкові плагіни (mu-plugins)"
+
+#: includes/class-p2s-scanner.php:832
+msgid ""
+"They run on every request and do not appear in the normal plugin list. "
+"Confirm each one is yours. Changes to this folder are watched in real time."
+msgstr ""
+"Вони запускаються при кожному запиті й не відображаються у звичайному списку "
+"плагінів. Переконайтеся, що кожен — ваш. Зміни в цій папці відслідковуються в "
+"реальному часі."
+
+#: includes/class-p2s-scanner.php:834
+msgid "No must-use plugins"
+msgstr "Немає обов'язкових плагінів (mu-plugins)"
+
+#: includes/class-p2s-scanner.php:866
+msgid "Files with classic web-shell patterns"
+msgstr "Файли з класичними шаблонами вебшеллів"
+
+#: includes/class-p2s-scanner.php:866
+msgid ""
+"Some obfuscated premium plugins trip this too, so confirm by reading the "
+"file."
+msgstr ""
+"Деякі обфусковані преміум-плагіни також можуть викликати це, тому "
+"підтвердьте, прочитавши файл."
+
+#: includes/class-p2s-scanner.php:868
+msgid "No classic web-shell patterns found"
+msgstr "Класичних шаблонів вебшеллів не знайдено"
+
+#: includes/class-p2s-scanner.php:871
+msgid "Large files skipped"
+msgstr "Великі файли пропущено"
+
+#: includes/class-p2s-scanner.php:871
+#, php-format
+msgid "%d PHP file(s) over 1.5 MB were not scanned."
+msgstr "%d PHP-файл(ів) розміром понад 1,5 МБ не сканувалися."
+
+#: includes/class-p2s-scanner.php:897
+msgid "Administrators"
+msgstr "Адміністратори"
+
+#: includes/class-p2s-scanner.php:897
+msgid "Confirm every one is expected."
+msgstr "Переконайтеся, що кожен очікуваний."
+
+#: includes/class-p2s-scanner.php:909
+msgid "Administrator accounts that did not exist at the baseline"
+msgstr "Облікові записи адміністраторів, яких не було в базовій лінії"
+
+#: includes/class-p2s-scanner.php:909
+msgid ""
+"If you created these yourself, use \"Accept current state\" on the Status "
+"tab."
+msgstr ""
+"Якщо ви створили їх самі, скористайтеся «Прийняти поточний стан» на вкладці "
+"«Статус»."
+
+#: includes/class-p2s-scanner.php:926
+msgid "Accounts registered in the window"
+msgstr "Облікові записи, зареєстровані у вікні"
+
+#: includes/class-p2s-scanner.php:926 includes/class-p2s-scanner.php:928
+#, php-format
+msgid "Since %s."
+msgstr "З %s."
+
+#: includes/class-p2s-scanner.php:928
+msgid "No accounts registered in the window"
+msgstr "Жодного облікового запису не зареєстровано у вікні"
+
+#: includes/class-p2s-scanner.php:942
+msgid "Site URLs"
+msgstr "URL-адреси сайту"
+
+#: includes/class-p2s-scanner.php:942
+msgid "Both should be your own domain."
+msgstr "Обидва мають бути вашим доменом."
+
+#: includes/class-p2s-scanner.php:944
+msgid "siteurl and home are on different hosts"
+msgstr "siteurl і home на різних хостах"
+
+#: includes/class-p2s-scanner.php:944
+msgid ""
+"Legitimate in some setups (WordPress in its own folder or subdomain), but "
+"also a common redirect hijack."
+msgstr ""
+"Легітимно в деяких конфігураціях (WordPress у власній папці або піддомені), "
+"але також частий перехват через редірект."
+
+#: includes/class-p2s-scanner.php:964
+msgid "The options scan failed"
+msgstr "Сканування опцій не вдалося"
+
+#: includes/class-p2s-scanner.php:964
+msgid "Large sites can hit MySQL regex limits, so options were not checked."
+msgstr ""
+"Великі сайти можуть впиратися в обмеження MySQL regex, тому опції не "
+"перевірялися."
+
+#: includes/class-p2s-scanner.php:970
+msgid "Options containing script tags or obfuscation functions"
+msgstr "Опції з тегами script або функціями обфускації"
+
+#: includes/class-p2s-scanner.php:970
+msgid "Analytics and header-script plugins are legitimate hits."
+msgstr "Плагіни аналітики та скриптів у хедері — це легітимні знахідки."
+
+#: includes/class-p2s-scanner.php:972
+msgid "No suspicious content in options"
+msgstr "Підозрілого вмісту в опціях не знайдено"
+
+#: includes/class-p2s-scanner.php:976
+msgid "The posts scan failed"
+msgstr "Сканування записів не вдалося"
+
+#: includes/class-p2s-scanner.php:976
+msgid ""
+"Large sites can hit MySQL regex limits, so post content was not checked."
+msgstr ""
+"Великі сайти можуть впиратися в обмеження MySQL regex, тому вміст записів не "
+"перевірявся."
+
+#: includes/class-p2s-scanner.php:982
+msgid "Posts or pages with external scripts or obfuscation"
+msgstr "Записи або сторінки із зовнішніми скриптами або обфускацією"
+
+#: includes/class-p2s-scanner.php:982
+msgid "Embeds can be legitimate."
+msgstr "Вбудовування можуть бути легітимними."
+
+#: includes/class-p2s-scanner.php:984
+msgid "No suspicious scripts in post content"
+msgstr "Підозрілих скриптів у вмісті записів не знайдено"
+
+#: includes/class-p2s-scanner.php:1012
+msgid "Scheduled events with no code attached"
+msgstr "Заплановані події без прикріпленого коду"
+
+#: includes/class-p2s-scanner.php:1012
+msgid ""
+"Usually left behind by a removed plugin; sometimes a persistence trick. "
+"Hooks that only register on certain pages can show up here too."
+msgstr ""
+"Зазвичай залишаються після видаленого плагіна; іноді — прийом закріплення. "
+"Хуки, які реєструються лише на певних сторінках, теж можуть тут з'являтися."
+
+#: includes/class-p2s-scanner.php:1014
+msgid "Every scheduled event has code attached"
+msgstr "Кожна запланована подія має прикріплений код"
+
+#: includes/class-p2s-scanner.php:1014
+#, php-format
+msgid "%d event(s) examined."
+msgstr "Перевірено %d подію(ій)."
+
+#: includes/class-p2s-scanner.php:1104
+msgid "No readable server logs found"
+msgstr "Читабельних журналів сервера не знайдено"
+
+#: includes/class-p2s-scanner.php:1104
+#, php-format
+msgid ""
+"Many hosts keep logs out of reach of PHP. Add log paths on the Settings tab "
+"(one path or glob per line), or ask your host for the access logs from %s "
+"onward before they rotate away."
+msgstr ""
+"Багато хостингів тримають журнали поза межами доступу PHP. Додайте шляхи до "
+"журналів на вкладці «Налаштування» (один шлях або glob на рядок) або "
+"попросіть хостинг надати журнали доступу з %s, поки вони не ротуються."
+
+#: includes/class-p2s-scanner.php:1179
+#, php-format
+msgid ""
+"Read the last 8 MB of %d access log(s). If your host writes one log per "
+"layer (nginx in front of Apache), requests may be counted twice; the ratios "
+"still hold."
+msgstr ""
+"Прочитано останні 8 МБ із %d журналу(ів) доступу. Якщо ваш хостинг пише один "
+"журнал на кожен рівень (nginx перед Apache), запити можуть рахуватися двічі; "
+"пропорції все одно зберігаються."
+
+#: includes/class-p2s-scanner.php:1182
+msgid "The access logs do not reach the window"
+msgstr "Журнали доступу не сягають вікна"
+
+#: includes/class-p2s-scanner.php:1182
+#, php-format
+msgid ""
+"No requests on or after %s. The window has probably rotated away; ask the "
+"host for archived logs."
+msgstr ""
+"Немає запитів %s або пізніше. Вікно, ймовірно, вже ротоване; попросіть у "
+"хостингу архівні журнали."
+
+#: includes/class-p2s-scanner.php:1184
+msgid "No 5xx responses in the window"
+msgstr "Немає відповідей 5xx у вікні"
+
+#: includes/class-p2s-scanner.php:1184
+#, php-format
+msgid ""
+"%1$d requests since %2$s. Failed memory-corruption attempts usually crash "
+"the PHP worker and show up as 500/502 bursts, so a flat zero is a strong "
+"reassuring signal. "
+msgstr ""
+"%1$d запитів з %2$s. Невдалі спроби експлуатації пошкодження пам'яті зазвичай "
+"призводять до падіння PHP-воркера і проявляються як сплески 500/502, тому "
+"рівний нуль — сильний заспокійливий сигнал. "
+
+#: includes/class-p2s-scanner.php:1186
+msgid "5xx responses above the pre-window baseline"
+msgstr "Відповіді 5xx вище базової лінії до вікна"
+
+#: includes/class-p2s-scanner.php:1186
+#, php-format
+msgid ""
+"%1$d 5xx since %2$s (worst day %3$d vs %4$d before). Bursts of 500/502 on "
+"random URLs are what failed exploitation attempts look like; a steady "
+"trickle on one URL is usually a broken plugin. "
+msgstr ""
+"%1$d 5xx з %2$s (найгірший день %3$d проти %4$d раніше). Сплески 500/502 на "
+"випадкових URL — це те, як виглядають невдалі спроби експлуатації; стабільний "
+"струмінь на одному URL зазвичай означає зламаний плагін. "
+
+#: includes/class-p2s-scanner.php:1186 includes/class-p2s-scanner.php:1188
+msgid "Top URLs returning 5xx in the window (count, path):"
+msgstr "Топ URL, що повертають 5xx у вікні (кількість, шлях):"
+
+#: includes/class-p2s-scanner.php:1188
+msgid "5xx responses in line with the baseline"
+msgstr "Відповіді 5xx відповідають базовій лінії"
+
+#: includes/class-p2s-scanner.php:1188
+#, php-format
+msgid "%1$d 5xx since %2$s (worst day %3$d vs %4$d before). "
+msgstr "%1$d 5xx з %2$s (найгірший день %3$d проти %4$d раніше). "
+
+#: includes/class-p2s-scanner.php:1193
+msgid "PHP worker crashes in the error logs"
+msgstr "Падіння PHP-воркерів у журналах помилок"
+
+#: includes/class-p2s-scanner.php:1193
+#, php-format
+msgid ""
+"%d crash line(s) (segfault or bus error). A crash is what a failed PHP2Shell "
+"attempt leaves behind, but buggy extensions crash too; compare the dates "
+"with the window."
+msgstr ""
+"%d рядок(ів) падінь (segfault або bus error). Падіння — це те, що залишає "
+"невдала спроба PHP2Shell, але глючні розширення теж падають; порівняйте дати "
+"з вікном."
+
+#: includes/class-p2s-scanner.php:1195
+msgid "No PHP worker crashes in the error logs"
+msgstr "Падінь PHP-воркерів у журналах помилок не знайдено"
+
+#: includes/class-p2s-scanner.php:1195
+#, php-format
+msgid "%d error log file(s) read."
+msgstr "Прочитано %d файл(ів) журналів помилок."
+
+#: includes/class-p2s-scanner.php:1199
+msgid "Logs were readable but contained nothing to evaluate"
+msgstr "Журнали читалися, але не містили нічого для оцінки"
