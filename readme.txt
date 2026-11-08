@@ -1,5 +1,5 @@
 === PHP2Shell Guard ===
-Contributors: yourwporgusername
+Contributors: Hodakovskiy
 Tags: security, malware, backdoor, monitoring, alerts
 Requires at least: 5.8
 Tested up to: 6.8
