@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:       PHP2Shell Guard
- * Plugin URI:        https://example.com/php2shell-guard
+ * Plugin URI:        https://github.com/hodakovskiy/php2shell-guard
  * Description:       Finds signs of a PHP2Shell compromise and warns you immediately by email, webhook (Slack/Discord/generic) or Telegram. Read-only: it never modifies or deletes your files.
  * Version:           1.0.0
  * Requires at least: 5.8
  * Requires PHP:      7.4
- * Author:            Your Name
- * Author URI:        https://example.com
+ * Author:            Sergey Hodakovskiy
+ * Author URI:        linkedin.com/in/sergey-hodakovskiy-41b3b6288
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       php2shell-guard
